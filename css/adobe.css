@@ -1,0 +1,4384 @@
+
+@font-face {
+                          font-family: "Gilroy-Medium";
+                          src: url('../fonts/Gilroy-Medium.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "Gilroy-Bold";
+                          src: url('../fonts/Gilroy-Bold.otf') format("opentype");
+                        }
+                        
+.anima-overlay {
+  position            : absolute;
+  opacity             : 0;
+  display             : none;
+  top                 : 0;
+  width               : 100%;
+  height              : 100%;
+}
+.bp5-ipadadobe {
+  width               : 100%;
+  min-width           : 768px;
+  height              : 100vh;
+  min-height          : 1102px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp5-ipadadobe .bp5-sectionhero {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 102px;
+  width               : 768px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-sectionhero .bp5-navbar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 102px;
+  width               : 768px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-sectionhero .bp5-navbar .bp5-rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 101px;
+  width               : 768px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-sectionhero .bp5-navbar .bp5-logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 41px;
+  height              : 23px;
+  width               : 135px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-sectionhero .bp5-navbar .bp5-logo .bp5-adamoutline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-sectionhero .bp5-navbar .bp5-logo .bp5-adamoutline .bp5-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 82.22%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-sectionhero .bp5-navbar .bp5-logo .bp5-adamoutline .bp5-path {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.74%;
+  bottom              : 13.04%;
+  height              : 65.22%;
+  width               : 11.11%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-sectionhero .bp5-navbar .bp5-logo .bp5-adamfill {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2.17%;
+  height              : 95.65%;
+  width               : 99.26%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.37%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp5-ipadadobe .bp5-sectionhero .bp5-navbar .bp5-logo .bp5-adamfill .bp5-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 81.34%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-sectionhero .bp5-navbar .bp5-logo .bp5-adamfill .bp5-path1 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.75%;
+  bottom              : 9.09%;
+  height              : 72.73%;
+  width               : 11.19%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-sectionhero .bp5-navbar .bp5-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 44px;
+  height              : 20px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 693px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-sectionfooter {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1022px;
+  height              : 83px;
+  width               : 782px;
+  position            : absolute;
+  margin              : 0;
+  left                : -6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-sectionfooter .bp5-bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 83px;
+  width               : 782px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-sectionfooter .bp5-footer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : 25px;
+  width               : 668px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-sectionfooter .bp5-footer .bp5-socialicons {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 548px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-sectionfooter .bp5-footer .bp5-socialicons .bp5-dribbble {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-sectionfooter .bp5-footer .bp5-socialicons .bp5-dribbble .bp5-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-sectionfooter .bp5-footer .bp5-socialicons .bp5-dribbble .bp5-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp5-ipadadobe .bp5-sectionfooter .bp5-footer .bp5-socialicons .bp5-linkedin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-sectionfooter .bp5-footer .bp5-socialicons .bp5-linkedin .bp5-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-sectionfooter .bp5-footer .bp5-socialicons .bp5-linkedin .bp5-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp5-ipadadobe .bp5-sectionfooter .bp5-footer .bp5-socialicons .bp5-instagram {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 95px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-sectionfooter .bp5-footer .bp5-socialicons .bp5-instagram .bp5-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2.08%;
+  height              : 95.83%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-sectionfooter .bp5-footer .bp5-socialicons .bp5-instagram .bp5-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2.08%;
+  height              : 95.83%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp5-ipadadobe .bp5-sectionfooter .bp5-footer .bp5-h3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : 111px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 11.29px;
+  color               : rgba(146, 146, 146, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.22px;
+  line-height         : 14.0px;
+}
+.bp5-ipadadobe .bp5-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 177px;
+  height              : 786px;
+  width               : 663px;
+  position            : absolute;
+  margin              : 0;
+  left                : 53px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-group2 .bp5-projectbrief {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 511px;
+  height              : 141px;
+  width               : 663px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-group2 .bp5-projectbrief .bp5-projecttitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 141px;
+  width               : 663px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-group2 .bp5-projectbrief .bp5-projecttitle .bp5-h1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 26px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Bold", Helvetica, Arial, serif;
+  font-size           : 35.28px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.68px;
+  line-height         : 45.36px;
+}
+.bp5-ipadadobe .bp5-group2 .bp5-projectbrief .bp5-projecttitle .bp5-missioncopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 90px;
+  height              : auto;
+  width               : 662px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 16.13px;
+  color               : rgba(39, 39, 39, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.3px;
+  line-height         : 25.2px;
+}
+.bp5-ipadadobe .bp5-group2 .bp5-projectbrief .bp5-projecttitle .bp5-missioncopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 16.13px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.31px;
+  line-height         : 19.0px;
+}
+.bp5-ipadadobe .bp5-group2 .bp5-seemore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 771px;
+  height              : 15px;
+  width               : 125px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-group2 .bp5-seemore .bp5-seemore1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 99.20%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.40%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-group2 .bp5-seemore .bp5-seemore1 .bp5-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-group2 .bp5-seemore .bp5-seemore1 .bp5-group .bp5-back {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 8px);
+  height              : 15px;
+  width               : 87.10%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 15.12px;
+  color               : rgba(16, 16, 16, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.29px;
+  line-height         : 18.0px;
+}
+.bp5-ipadadobe .bp5-group2 .bp5-seemore .bp5-seemore1 .bp5-group .bp5-a109617 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.81%;
+  top                 : 10.00%;
+  height              : 80.00%;
+  width               : 12.90%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-group2 .bp5-seemore .bp5-seemore1 .bp5-group .bp5-a109617 .bp5-path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4.17%;
+  height              : 91.67%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-group2 .bp5-seemore .bp5-seemorehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp5-ipadadobe .bp5-group2 .bp5-seemore .bp5-seemorehover .bp5-back1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 8px);
+  height              : 15px;
+  width               : 87.20%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 15.12px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.29px;
+  line-height         : 18.0px;
+}
+.bp5-ipadadobe .bp5-group2 .bp5-seemore .bp5-seemorehover .bp5-a1096171 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.80%;
+  top                 : 10.00%;
+  height              : 80.00%;
+  width               : 12.80%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-group2 .bp5-seemore .bp5-seemorehover .bp5-a1096171 .bp5-path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4.17%;
+  height              : 91.67%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-group2 .bp5-swiftdark {
+  background-color    : rgba(248, 18, 34, 1.0);
+  top                 : 0px;
+  height              : 436px;
+  width               : 490px;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+  border-radius       : 5px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-group2 .bp5-swiftdark .bp5-mask {
+  background-color    : rgba(248, 18, 34, 1.0);
+  top                 : 0px;
+  height              : 436px;
+  width               : 490px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 5px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-group2 .bp5-swiftdark .bp5-card1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 58px;
+  height              : 320px;
+  width               : 490px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-group2 .bp5-timeline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 675px;
+  height              : 26px;
+  width               : 159px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadadobe .bp5-group2 .bp5-timeline .bp5-missioncopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 136px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 16.13px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.31px;
+  line-height         : 25.2px;
+}
+.bp5-ipadadobe .bp5-group2 .bp5-timeline .bp5-lock {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 16px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
+.bp2-web1366adobe {
+  width               : 100%;
+  min-width           : 1366px;
+  height              : 100vh;
+  min-height          : 1104px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp2-web1366adobe .bp2-sectionfooter {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 960px;
+  height              : 151px;
+  width               : 1394px;
+  position            : absolute;
+  margin              : 0;
+  left                : -14px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366adobe .bp2-sectionfooter .bp2-bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 151px;
+  width               : 1394px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366adobe .bp2-sectionfooter .bp2-footer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 63px;
+  height              : 44px;
+  width               : 1188px;
+  position            : absolute;
+  margin              : 0;
+  left                : 103px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366adobe .bp2-sectionfooter .bp2-footer .bp2-socialicons {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 214px;
+  position            : absolute;
+  margin              : 0;
+  left                : 974px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366adobe .bp2-sectionfooter .bp2-footer .bp2-socialicons .bp2-dribbble {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 43px;
+  width               : 43px;
+  position            : absolute;
+  margin              : 0;
+  left                : 85px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366adobe .bp2-sectionfooter .bp2-footer .bp2-socialicons .bp2-dribbble .bp2-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366adobe .bp2-sectionfooter .bp2-footer .bp2-socialicons .bp2-dribbble .bp2-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp2-web1366adobe .bp2-sectionfooter .bp2-footer .bp2-socialicons .bp2-linkedin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 43px;
+  width               : 43px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366adobe .bp2-sectionfooter .bp2-footer .bp2-socialicons .bp2-linkedin .bp2-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366adobe .bp2-sectionfooter .bp2-footer .bp2-socialicons .bp2-linkedin .bp2-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp2-web1366adobe .bp2-sectionfooter .bp2-footer .bp2-socialicons .bp2-instagram {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 43px;
+  width               : 43px;
+  position            : absolute;
+  margin              : 0;
+  left                : 171px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366adobe .bp2-sectionfooter .bp2-footer .bp2-socialicons .bp2-instagram .bp2-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.16%;
+  height              : 97.67%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366adobe .bp2-sectionfooter .bp2-footer .bp2-socialicons .bp2-instagram .bp2-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.16%;
+  height              : 97.67%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp2-web1366adobe .bp2-sectionfooter .bp2-footer .bp2-h3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : auto;
+  width               : 199px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 22.4px;
+  color               : rgba(146, 146, 146, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.43px;
+  line-height         : 27.0px;
+}
+.bp2-web1366adobe .bp2-navbarwork {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 101px;
+  height              : 31px;
+  width               : 1164px;
+  position            : absolute;
+  margin              : 0;
+  left                : 101px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366adobe .bp2-navbarwork .bp2-back {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 21px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366adobe .bp2-navbarwork .bp2-back .bp2-back1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 11px);
+  height              : 21px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 21.0px;
+  color               : rgba(16, 16, 16, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.4px;
+  line-height         : 25.0px;
+}
+.bp2-web1366adobe .bp2-navbarwork .bp2-back .bp2-backhover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 11px);
+  height              : 21px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 21.0px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.4px;
+  line-height         : 25.0px;
+}
+.bp2-web1366adobe .bp2-navbarwork .bp2-logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 31px;
+  width               : 180px;
+  position            : absolute;
+  margin              : 0;
+  left                : 984px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366adobe .bp2-navbarwork .bp2-logo .bp2-adamoutline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 99.44%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.28%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366adobe .bp2-navbarwork .bp2-logo .bp2-adamoutline .bp2-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.61%;
+  height              : 96.77%;
+  width               : 82.12%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366adobe .bp2-navbarwork .bp2-logo .bp2-adamoutline .bp2-path {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.56%;
+  top                 : 17.74%;
+  height              : 64.52%;
+  width               : 11.17%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366adobe .bp2-navbarwork .bp2-logo .bp2-adamfill {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.61%;
+  height              : 96.77%;
+  width               : 98.89%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.56%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp2-web1366adobe .bp2-navbarwork .bp2-logo .bp2-adamfill .bp2-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.67%;
+  height              : 96.67%;
+  width               : 81.46%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366adobe .bp2-navbarwork .bp2-logo .bp2-adamfill .bp2-path1 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.56%;
+  top                 : 15.00%;
+  height              : 70.00%;
+  width               : 11.24%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366adobe .bp2-projectbrief {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 252px;
+  height              : 514px;
+  width               : 1179px;
+  position            : absolute;
+  margin              : 0;
+  left                : 101px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366adobe .bp2-projectbrief .bp2-projectbrief1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 64px;
+  height              : 367px;
+  width               : 529px;
+  position            : absolute;
+  margin              : 0;
+  left                : 650px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366adobe .bp2-projectbrief .bp2-projectbrief1 .bp2-h1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37px;
+  height              : auto;
+  width               : 494px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Bold", Helvetica, Arial, serif;
+  font-size           : 49.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.94px;
+  line-height         : 63.0px;
+}
+.bp2-web1366adobe .bp2-projectbrief .bp2-projectbrief1 .bp2-missioncopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 189px;
+  height              : auto;
+  width               : 527px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 22.4px;
+  color               : rgba(39, 39, 39, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.43px;
+  line-height         : 35.0px;
+}
+.bp2-web1366adobe .bp2-projectbrief .bp2-projectbrief1 .bp2-missioncopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 22.4px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.43px;
+  line-height         : 27.0px;
+}
+.bp2-web1366adobe .bp2-projectbrief .bp2-projectbrief1 .bp2-timeline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 332px;
+  height              : 35px;
+  width               : 221px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366adobe .bp2-projectbrief .bp2-projectbrief1 .bp2-timeline .bp2-missioncopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 189px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 22.4px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.43px;
+  line-height         : 35.0px;
+}
+.bp2-web1366adobe .bp2-projectbrief .bp2-projectbrief1 .bp2-timeline .bp2-lock {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 21px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366adobe .bp2-projectbrief .bp2-swiftdark {
+  background-color    : rgba(248, 18, 34, 1.0);
+  top                 : 0px;
+  height              : 514px;
+  width               : 577px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 7px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366adobe .bp2-projectbrief .bp2-swiftdark .bp2-mask {
+  background-color    : rgba(248, 18, 34, 1.0);
+  top                 : 0px;
+  height              : 514px;
+  width               : 577px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 7px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366adobe .bp2-projectbrief .bp2-swiftdark .bp2-card1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 69px;
+  height              : 378px;
+  width               : 577px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366adobe .bp2-seemore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 863px;
+  height              : 21px;
+  width               : 174px;
+  position            : absolute;
+  margin              : 0;
+  left                : 101px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366adobe .bp2-seemore .bp2-seemore1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 99.43%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.29%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366adobe .bp2-seemore .bp2-seemore1 .bp2-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366adobe .bp2-seemore .bp2-seemore1 .bp2-group .bp2-back {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 11px);
+  height              : 21px;
+  width               : 86.71%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 21.0px;
+  color               : rgba(16, 16, 16, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.4px;
+  line-height         : 25.0px;
+}
+.bp2-web1366adobe .bp2-seemore .bp2-seemore1 .bp2-group .bp2-a109617 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 11.90%;
+  height              : 76.19%;
+  width               : 13.29%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366adobe .bp2-seemore .bp2-seemore1 .bp2-group .bp2-a109617 .bp2-path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3.12%;
+  height              : 93.75%;
+  width               : 95.65%;
+  position            : absolute;
+  margin              : 0;
+  left                : -4.35%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366adobe .bp2-seemore .bp2-seemorehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp2-web1366adobe .bp2-seemore .bp2-seemorehover .bp2-back1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 11px);
+  height              : 21px;
+  width               : 86.78%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 21.0px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.4px;
+  line-height         : 25.0px;
+}
+.bp2-web1366adobe .bp2-seemore .bp2-seemorehover .bp2-a1096171 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 11.90%;
+  height              : 76.19%;
+  width               : 13.22%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366adobe .bp2-seemore .bp2-seemorehover .bp2-a1096171 .bp2-path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3.12%;
+  height              : 93.75%;
+  width               : 95.65%;
+  position            : absolute;
+  margin              : 0;
+  left                : 2.17%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
+.bp3-web1280adobe {
+  width               : 100%;
+  min-width           : 1280px;
+  height              : 100vh;
+  min-height          : 1088px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp3-web1280adobe .bp3-group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 1061px;
+  width               : 1281px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-group3 .bp3-rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 6px;
+  height              : 1055px;
+  width               : 1229px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-group3 .bp3-navbarwork1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 1281px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-group3 .bp3-navbarwork1 .bp3-rectangle1 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 1280px;
+  position            : relative;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-sectionfooter {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 953px;
+  height              : 142px;
+  width               : 1310px;
+  position            : absolute;
+  margin              : 0;
+  left                : -15px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-sectionfooter .bp3-bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 142px;
+  width               : 1310px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-sectionfooter .bp3-footer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 58px;
+  height              : 41px;
+  width               : 1118px;
+  position            : absolute;
+  margin              : 0;
+  left                : 97px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-sectionfooter .bp3-footer .bp3-socialicons {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 41px;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  left                : 916px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-sectionfooter .bp3-footer .bp3-socialicons .bp3-dribbble {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 41px;
+  width               : 41px;
+  position            : absolute;
+  margin              : 0;
+  left                : 80px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-sectionfooter .bp3-footer .bp3-socialicons .bp3-dribbble .bp3-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 97.56%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.22%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-sectionfooter .bp3-footer .bp3-socialicons .bp3-dribbble .bp3-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 97.56%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.22%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp3-web1280adobe .bp3-sectionfooter .bp3-footer .bp3-socialicons .bp3-linkedin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 41px;
+  width               : 41px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-sectionfooter .bp3-footer .bp3-socialicons .bp3-linkedin .bp3-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 97.56%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.22%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-sectionfooter .bp3-footer .bp3-socialicons .bp3-linkedin .bp3-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 97.56%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.22%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp3-web1280adobe .bp3-sectionfooter .bp3-footer .bp3-socialicons .bp3-instagram {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 40px;
+  width               : 41px;
+  position            : absolute;
+  margin              : 0;
+  left                : 160px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-sectionfooter .bp3-footer .bp3-socialicons .bp3-instagram .bp3-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 97.56%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.22%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-sectionfooter .bp3-footer .bp3-socialicons .bp3-instagram .bp3-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 97.56%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.22%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp3-web1280adobe .bp3-sectionfooter .bp3-footer .bp3-h3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : auto;
+  width               : 187px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 20.16px;
+  color               : rgba(146, 146, 146, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.39px;
+  line-height         : 25.0px;
+}
+.bp3-web1280adobe .bp3-projectbrief {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 264px;
+  height              : 463px;
+  width               : 1061px;
+  position            : absolute;
+  margin              : 0;
+  left                : 110px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-projectbrief .bp3-projectbrief1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 58px;
+  height              : 331px;
+  width               : 476px;
+  position            : absolute;
+  margin              : 0;
+  left                : 585px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-projectbrief .bp3-projectbrief1 .bp3-h1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : auto;
+  width               : 445px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Bold", Helvetica, Arial, serif;
+  font-size           : 44.1px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.85px;
+  line-height         : 56.7px;
+}
+.bp3-web1280adobe .bp3-projectbrief .bp3-projectbrief1 .bp3-missioncopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 169px;
+  height              : auto;
+  width               : 474px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 20.16px;
+  color               : rgba(39, 39, 39, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.39px;
+  line-height         : 31.5px;
+}
+.bp3-web1280adobe .bp3-projectbrief .bp3-projectbrief1 .bp3-missioncopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 20.16px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.39px;
+  line-height         : 25.0px;
+}
+.bp3-web1280adobe .bp3-projectbrief .bp3-projectbrief1 .bp3-timeline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 299px;
+  height              : 32px;
+  width               : 199px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-projectbrief .bp3-projectbrief1 .bp3-timeline .bp3-missioncopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 170px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 20.16px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.39px;
+  line-height         : 31.5px;
+}
+.bp3-web1280adobe .bp3-projectbrief .bp3-projectbrief1 .bp3-timeline .bp3-lock {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 19px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-projectbrief .bp3-swiftdark {
+  background-color    : rgba(248, 18, 34, 1.0);
+  top                 : 0px;
+  height              : 463px;
+  width               : 520px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 6px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-projectbrief .bp3-swiftdark .bp3-mask {
+  background-color    : rgba(248, 18, 34, 1.0);
+  top                 : 0px;
+  height              : 462px;
+  width               : 519px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-projectbrief .bp3-swiftdark .bp3-card1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 62px;
+  height              : 340px;
+  width               : 519px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-seemore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 840px;
+  height              : 19px;
+  width               : 156px;
+  position            : absolute;
+  margin              : 0;
+  left                : 119px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-seemore .bp3-seemore1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 99.36%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.32%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-seemore .bp3-seemore1 .bp3-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-seemore .bp3-seemore1 .bp3-group .bp3-back {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 10px);
+  height              : 19px;
+  width               : 87.10%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 18.9px;
+  color               : rgba(16, 16, 16, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 23.0px;
+}
+.bp3-web1280adobe .bp3-seemore .bp3-seemore1 .bp3-group .bp3-a109617 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.65%;
+  top                 : 13.16%;
+  height              : 73.68%;
+  width               : 12.90%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-seemore .bp3-seemore1 .bp3-group .bp3-a109617 .bp3-path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-seemore .bp3-seemorehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp3-web1280adobe .bp3-seemore .bp3-seemorehover .bp3-back1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 10px);
+  height              : 19px;
+  width               : 87.18%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 18.9px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 23.0px;
+}
+.bp3-web1280adobe .bp3-seemore .bp3-seemorehover .bp3-a1096171 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.64%;
+  top                 : 13.16%;
+  height              : 73.68%;
+  width               : 12.82%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-seemore .bp3-seemorehover .bp3-a1096171 .bp3-path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-navbarwork {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 186px;
+  width               : 1281px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-navbarwork .bp3-rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 185px;
+  width               : 1280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-navbarwork .bp3-group4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 105px;
+  height              : 28px;
+  width               : 1048px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-navbarwork .bp3-group4 .bp3-back {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 19px;
+  width               : 68px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-navbarwork .bp3-group4 .bp3-back .bp3-back1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 10px);
+  height              : 19px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 18.9px;
+  color               : rgba(16, 16, 16, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 23.0px;
+}
+.bp3-web1280adobe .bp3-navbarwork .bp3-group4 .bp3-back .bp3-backhover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 10px);
+  height              : 19px;
+  width               : 94.12%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 18.9px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 23.0px;
+}
+.bp3-web1280adobe .bp3-navbarwork .bp3-group4 .bp3-logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 162px;
+  position            : absolute;
+  margin              : 0;
+  left                : 885px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-navbarwork .bp3-group4 .bp3-logo .bp3-adamoutline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 99.38%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.31%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-navbarwork .bp3-group4 .bp3-logo .bp3-adamoutline .bp3-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.79%;
+  height              : 96.43%;
+  width               : 81.99%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-navbarwork .bp3-group4 .bp3-logo .bp3-adamoutline .bp3-path {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  bottom              : 14.29%;
+  height              : 64.29%;
+  width               : 11.18%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-navbarwork .bp3-group4 .bp3-logo .bp3-adamfill {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.79%;
+  height              : 96.43%;
+  width               : 98.77%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.62%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp3-web1280adobe .bp3-navbarwork .bp3-group4 .bp3-logo .bp3-adamfill .bp3-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.85%;
+  height              : 96.30%;
+  width               : 81.25%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280adobe .bp3-navbarwork .bp3-group4 .bp3-logo .bp3-adamfill .bp3-path1 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 14.81%;
+  height              : 70.37%;
+  width               : 11.25%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
+.bp1-adobe {
+  width               : 100%;
+  min-width           : 1920px;
+  height              : 100vh;
+  min-height          : 1589px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(16, 16, 16, 1.0);
+  opacity             : 1.0;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp1-adobe .bp1-whitebg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 1416px;
+  width               : 1920px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-adobe .bp1-projectbrief {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 372px;
+  height              : 734px;
+  width               : 1683px;
+  position            : absolute;
+  margin              : 0;
+  left                : 136px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-adobe .bp1-projectbrief .bp1-projectbrief1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 92px;
+  height              : 524px;
+  width               : 753px;
+  position            : absolute;
+  margin              : 0;
+  left                : 930px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-adobe .bp1-projectbrief .bp1-projectbrief1 .bp1-h1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 52px;
+  height              : auto;
+  width               : 706px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Bold", Helvetica, Arial, serif;
+  font-size           : 70.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.35px;
+  line-height         : 90.0px;
+}
+.bp1-adobe .bp1-projectbrief .bp1-projectbrief1 .bp1-missioncopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 269px;
+  height              : auto;
+  width               : 753px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(39, 39, 39, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.62px;
+  line-height         : 50.0px;
+}
+.bp1-adobe .bp1-projectbrief .bp1-projectbrief1 .bp1-missioncopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.62px;
+  line-height         : 39.0px;
+}
+.bp1-adobe .bp1-projectbrief .bp1-projectbrief1 .bp1-timeline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 474px;
+  height              : 50px;
+  width               : 314px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-adobe .bp1-projectbrief .bp1-projectbrief1 .bp1-timeline .bp1-missioncopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 271px;
+  position            : absolute;
+  margin              : 0;
+  left                : 44px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.62px;
+  line-height         : 50.0px;
+}
+.bp1-adobe .bp1-projectbrief .bp1-projectbrief1 .bp1-timeline .bp1-lock {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 30px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-adobe .bp1-projectbrief .bp1-swiftdark {
+  background-color    : rgba(248, 18, 34, 1.0);
+  top                 : 0px;
+  height              : 734px;
+  width               : 824px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 10px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-adobe .bp1-projectbrief .bp1-swiftdark .bp1-mask {
+  background-color    : rgba(248, 18, 34, 1.0);
+  top                 : 0px;
+  height              : 734px;
+  width               : 824px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-adobe .bp1-projectbrief .bp1-swiftdark .bp1-card1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 98px;
+  height              : 540px;
+  width               : 824px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-adobe .bp1-seemore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1239px;
+  height              : 30px;
+  width               : 247px;
+  position            : absolute;
+  margin              : 0;
+  left                : 136px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-adobe .bp1-seemore .bp1-seemore1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 99.60%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.20%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-adobe .bp1-seemore .bp1-seemore1 .bp1-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-adobe .bp1-seemore .bp1-seemore1 .bp1-group .bp1-back {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 15px);
+  height              : 30px;
+  width               : 78.86%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(16, 16, 16, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.58px;
+  line-height         : 36.0px;
+}
+.bp1-adobe .bp1-seemore .bp1-seemore1 .bp1-group .bp1-a109617 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 11.67%;
+  height              : 76.67%;
+  width               : 13.01%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-adobe .bp1-seemore .bp1-seemore1 .bp1-group .bp1-a109617 .bp1-path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2.17%;
+  height              : 95.65%;
+  width               : 96.88%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.56%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-adobe .bp1-seemore .bp1-seemorehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp1-adobe .bp1-seemore .bp1-seemorehover .bp1-back1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 15px);
+  height              : 30px;
+  width               : 78.54%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.58px;
+  line-height         : 36.0px;
+}
+.bp1-adobe .bp1-seemore .bp1-seemorehover .bp1-a1096171 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 11.67%;
+  height              : 76.67%;
+  width               : 12.96%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-adobe .bp1-seemore .bp1-seemorehover .bp1-a1096171 .bp1-path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2.17%;
+  height              : 95.65%;
+  width               : 96.88%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.56%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-adobe .bp1-sectionfooter {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1386px;
+  height              : 213px;
+  width               : 1960px;
+  position            : absolute;
+  margin              : 0;
+  left                : -20px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-adobe .bp1-sectionfooter .bp1-bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 213px;
+  width               : 1960px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-adobe .bp1-sectionfooter .bp1-footer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 89px;
+  height              : 60px;
+  width               : 1669px;
+  position            : absolute;
+  margin              : 0;
+  left                : 145px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-adobe .bp1-sectionfooter .bp1-footer .bp1-socialicons {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 300px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1369px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-adobe .bp1-sectionfooter .bp1-footer .bp1-socialicons .bp1-dribbble {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 60px;
+  position            : absolute;
+  margin              : 0;
+  left                : 120px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-adobe .bp1-sectionfooter .bp1-footer .bp1-socialicons .bp1-dribbble .bp1-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-adobe .bp1-sectionfooter .bp1-footer .bp1-socialicons .bp1-dribbble .bp1-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp1-adobe .bp1-sectionfooter .bp1-footer .bp1-socialicons .bp1-linkedin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 60px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-adobe .bp1-sectionfooter .bp1-footer .bp1-socialicons .bp1-linkedin .bp1-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-adobe .bp1-sectionfooter .bp1-footer .bp1-socialicons .bp1-linkedin .bp1-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp1-adobe .bp1-sectionfooter .bp1-footer .bp1-socialicons .bp1-instagram {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 59px;
+  width               : 60px;
+  position            : absolute;
+  margin              : 0;
+  left                : 240px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-adobe .bp1-sectionfooter .bp1-footer .bp1-socialicons .bp1-instagram .bp1-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-adobe .bp1-sectionfooter .bp1-footer .bp1-socialicons .bp1-instagram .bp1-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp1-adobe .bp1-sectionfooter .bp1-footer .bp1-h3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(146, 146, 146, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.62px;
+  line-height         : 39.0px;
+}
+.bp1-adobe .bp1-navbarwork {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 100px;
+  height              : 44px;
+  width               : 1661px;
+  position            : absolute;
+  margin              : 0;
+  left                : 130px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-adobe .bp1-navbarwork .bp1-back {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 30px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-adobe .bp1-navbarwork .bp1-back .bp1-back1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 15px);
+  height              : 30px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(16, 16, 16, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.58px;
+  line-height         : 36.0px;
+}
+.bp1-adobe .bp1-navbarwork .bp1-back .bp1-backhover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 15px);
+  height              : 30px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.58px;
+  line-height         : 36.0px;
+}
+.bp1-adobe .bp1-navbarwork .bp1-logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 256px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1405px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-adobe .bp1-navbarwork .bp1-logo .bp1-adamoutline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 99.61%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-adobe .bp1-navbarwork .bp1-logo .bp1-adamoutline .bp1-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.14%;
+  height              : 97.73%;
+  width               : 82.35%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-adobe .bp1-navbarwork .bp1-logo .bp1-adamoutline .bp1-path {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.39%;
+  bottom              : 13.64%;
+  height              : 65.91%;
+  width               : 10.98%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-adobe .bp1-navbarwork .bp1-logo .bp1-adamfill {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 2.27%;
+  height              : 95.45%;
+  width               : 99.22%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp1-adobe .bp1-navbarwork .bp1-logo .bp1-adamfill .bp1-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 81.50%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-adobe .bp1-navbarwork .bp1-logo .bp1-adamfill .bp1-path1 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.39%;
+  bottom              : 11.90%;
+  height              : 71.43%;
+  width               : 11.42%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
+.bp4-ipadpro129adobe {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100vh;
+  min-height          : 1465px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp4-ipadpro129adobe .bp4-group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 150px;
+  width               : 1026px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129adobe .bp4-group3 .bp4-navbarwork {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 149px;
+  width               : 1025px;
+  position            : relative;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129adobe .bp4-group3 .bp4-navbarwork .bp4-rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 148px;
+  width               : 1024px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129adobe .bp4-group3 .bp4-navbarwork .bp4-group4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 84px;
+  height              : 22px;
+  width               : 839px;
+  position            : absolute;
+  margin              : 0;
+  left                : 90px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129adobe .bp4-group3 .bp4-navbarwork .bp4-group4 .bp4-back {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 15px;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129adobe .bp4-group3 .bp4-navbarwork .bp4-group4 .bp4-back .bp4-back1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 8px);
+  height              : 15px;
+  width               : 98.18%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.91%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 15.12px;
+  color               : rgba(16, 16, 16, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.29px;
+  line-height         : 18.0px;
+}
+.bp4-ipadpro129adobe .bp4-group3 .bp4-navbarwork .bp4-group4 .bp4-back .bp4-backhover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 8px);
+  height              : 15px;
+  width               : 92.73%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 15.12px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.29px;
+  line-height         : 18.0px;
+}
+.bp4-ipadpro129adobe .bp4-group3 .bp4-navbarwork .bp4-group4 .bp4-logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 708px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129adobe .bp4-group3 .bp4-navbarwork .bp4-group4 .bp4-logo .bp4-adamoutline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 99.23%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.38%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129adobe .bp4-group3 .bp4-navbarwork .bp4-group4 .bp4-logo .bp4-adamoutline .bp4-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 82.17%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129adobe .bp4-group3 .bp4-navbarwork .bp4-group4 .bp4-logo .bp4-adamoutline .bp4-path {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.78%;
+  top                 : 15.91%;
+  height              : 68.18%;
+  width               : 10.85%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129adobe .bp4-group3 .bp4-navbarwork .bp4-group4 .bp4-logo .bp4-adamfill {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2.27%;
+  height              : 95.45%;
+  width               : 98.46%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.77%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp4-ipadpro129adobe .bp4-group3 .bp4-navbarwork .bp4-group4 .bp4-logo .bp4-adamfill .bp4-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 81.25%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129adobe .bp4-group3 .bp4-navbarwork .bp4-group4 .bp4-logo .bp4-adamfill .bp4-path1 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  bottom              : 9.52%;
+  height              : 71.43%;
+  width               : 11.72%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129adobe .bp4-sectionfooter {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1357px;
+  height              : 113px;
+  width               : 1047px;
+  position            : absolute;
+  margin              : 0;
+  left                : -10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129adobe .bp4-sectionfooter .bp4-bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 113px;
+  width               : 1047px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129adobe .bp4-sectionfooter .bp4-footer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 46px;
+  height              : 33px;
+  width               : 895px;
+  position            : absolute;
+  margin              : 0;
+  left                : 77px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129adobe .bp4-sectionfooter .bp4-footer .bp4-socialicons {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 33px;
+  width               : 162px;
+  position            : absolute;
+  margin              : 0;
+  left                : 733px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129adobe .bp4-sectionfooter .bp4-footer .bp4-socialicons .bp4-dribbble {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 33px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 64px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129adobe .bp4-sectionfooter .bp4-footer .bp4-socialicons .bp4-dribbble .bp4-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.52%;
+  height              : 96.97%;
+  width               : 96.97%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.52%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129adobe .bp4-sectionfooter .bp4-footer .bp4-socialicons .bp4-dribbble .bp4-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.52%;
+  height              : 96.97%;
+  width               : 96.97%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.52%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp4-ipadpro129adobe .bp4-sectionfooter .bp4-footer .bp4-socialicons .bp4-linkedin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 33px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129adobe .bp4-sectionfooter .bp4-footer .bp4-socialicons .bp4-linkedin .bp4-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.52%;
+  height              : 96.97%;
+  width               : 96.97%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.52%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129adobe .bp4-sectionfooter .bp4-footer .bp4-socialicons .bp4-linkedin .bp4-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.52%;
+  height              : 96.97%;
+  width               : 96.97%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.52%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp4-ipadpro129adobe .bp4-sectionfooter .bp4-footer .bp4-socialicons .bp4-instagram {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 32px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 128px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129adobe .bp4-sectionfooter .bp4-footer .bp4-socialicons .bp4-instagram .bp4-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 96.97%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.52%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129adobe .bp4-sectionfooter .bp4-footer .bp4-socialicons .bp4-instagram .bp4-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 96.97%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.52%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp4-ipadpro129adobe .bp4-sectionfooter .bp4-footer .bp4-h3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : auto;
+  width               : 149px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 16.13px;
+  color               : rgba(146, 146, 146, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.31px;
+  line-height         : 19.0px;
+}
+.bp4-ipadpro129adobe .bp4-projectbrief {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 832px;
+  height              : 197px;
+  width               : 841px;
+  position            : absolute;
+  margin              : 0;
+  left                : 92px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129adobe .bp4-projectbrief .bp4-h1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 26px;
+  height              : auto;
+  width               : 486px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Bold", Helvetica, Arial, serif;
+  font-size           : 35.28px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.68px;
+  line-height         : 45.36px;
+}
+.bp4-ipadpro129adobe .bp4-projectbrief .bp4-missioncopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 94px;
+  height              : auto;
+  width               : 841px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 16.13px;
+  color               : rgba(39, 39, 39, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.31px;
+  line-height         : 25.2px;
+}
+.bp4-ipadpro129adobe .bp4-projectbrief .bp4-missioncopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 16.13px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.31px;
+  line-height         : 19.0px;
+}
+.bp4-ipadpro129adobe .bp4-projectbrief .bp4-timeline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 171px;
+  height              : 26px;
+  width               : 159px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129adobe .bp4-projectbrief .bp4-timeline .bp4-missioncopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 136px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 16.13px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.31px;
+  line-height         : 25.2px;
+}
+.bp4-ipadpro129adobe .bp4-projectbrief .bp4-timeline .bp4-lock {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 16px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129adobe .bp4-swiftdark {
+  background-color    : rgba(248, 18, 34, 1.0);
+  top                 : 244px;
+  height              : 492px;
+  width               : 553px;
+  position            : absolute;
+  margin              : 0;
+  left                : 236px;
+  border-radius       : 5px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129adobe .bp4-swiftdark .bp4-mask {
+  background-color    : rgba(248, 18, 34, 1.0);
+  top                 : 0px;
+  height              : 492px;
+  width               : 553px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 5px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129adobe .bp4-swiftdark .bp4-card1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 65px;
+  height              : 362px;
+  width               : 553px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129adobe .bp4-seemore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1261px;
+  height              : 15px;
+  width               : 125px;
+  position            : absolute;
+  margin              : 0;
+  left                : 92px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129adobe .bp4-seemore .bp4-seemore1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 99.20%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.40%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129adobe .bp4-seemore .bp4-seemore1 .bp4-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129adobe .bp4-seemore .bp4-seemore1 .bp4-group .bp4-back {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 8px);
+  height              : 15px;
+  width               : 87.10%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 15.12px;
+  color               : rgba(16, 16, 16, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.29px;
+  line-height         : 18.0px;
+}
+.bp4-ipadpro129adobe .bp4-seemore .bp4-seemore1 .bp4-group .bp4-a109617 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.81%;
+  top                 : 10.00%;
+  height              : 80.00%;
+  width               : 12.90%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129adobe .bp4-seemore .bp4-seemore1 .bp4-group .bp4-a109617 .bp4-path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4.17%;
+  height              : 91.67%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129adobe .bp4-seemore .bp4-seemorehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp4-ipadpro129adobe .bp4-seemore .bp4-seemorehover .bp4-back1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 8px);
+  height              : 15px;
+  width               : 87.20%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 15.12px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.29px;
+  line-height         : 18.0px;
+}
+.bp4-ipadpro129adobe .bp4-seemore .bp4-seemorehover .bp4-a1096171 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.80%;
+  top                 : 10.00%;
+  height              : 80.00%;
+  width               : 12.80%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129adobe .bp4-seemore .bp4-seemorehover .bp4-a1096171 .bp4-path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4.17%;
+  height              : 91.67%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
+.bp6-iphonexadobe {
+  width               : 100%;
+  min-width           : 375px;
+  height              : 100vh;
+  min-height          : 812px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp6-iphonexadobe .bp6-sectionhero {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 81px;
+  width               : 376px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexadobe .bp6-sectionhero .bp6-navbar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 81px;
+  width               : 376px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexadobe .bp6-sectionhero .bp6-navbar .bp6-rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 81px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexadobe .bp6-sectionhero .bp6-navbar .bp6-logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : 19px;
+  width               : 109px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexadobe .bp6-sectionhero .bp6-navbar .bp6-logo .bp6-adamoutline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexadobe .bp6-sectionhero .bp6-navbar .bp6-logo .bp6-adamoutline .bp6-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2.63%;
+  height              : 94.74%;
+  width               : 82.57%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.92%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexadobe .bp6-sectionhero .bp6-navbar .bp6-logo .bp6-adamoutline .bp6-path {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 18.42%;
+  height              : 63.16%;
+  width               : 11.01%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexadobe .bp6-sectionhero .bp6-navbar .bp6-logo .bp6-adamfill {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 2.63%;
+  height              : 94.74%;
+  width               : 98.17%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp6-iphonexadobe .bp6-sectionhero .bp6-navbar .bp6-logo .bp6-adamfill .bp6-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 82.24%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexadobe .bp6-sectionhero .bp6-navbar .bp6-logo .bp6-adamfill .bp6-path1 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 13.89%;
+  height              : 72.22%;
+  width               : 11.21%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp6-iphonexadobe .bp6-sectionhero .bp6-navbar .bp6-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 16px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 314px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexadobe .bp6-h1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 450px;
+  height              : auto;
+  width               : 297px;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Bold", Helvetica, Arial, serif;
+  font-size           : 28.22px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.54px;
+  line-height         : 36.29px;
+}
+.bp6-iphonexadobe .bp6-missioncopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 542px;
+  height              : auto;
+  width               : 306px;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 12.9px;
+  color               : rgba(39, 39, 39, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.25px;
+  line-height         : 20.16px;
+}
+.bp6-iphonexadobe .bp6-missioncopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 429px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 12.9px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.25px;
+  line-height         : 16.0px;
+}
+.bp6-iphonexadobe .bp6-sectionfooter {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 747px;
+  height              : 68px;
+  width               : 387px;
+  position            : absolute;
+  margin              : 0;
+  left                : -6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexadobe .bp6-sectionfooter .bp6-bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 68px;
+  width               : 387px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexadobe .bp6-sectionfooter .bp6-footer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 27px;
+  height              : 20px;
+  width               : 295px;
+  position            : absolute;
+  margin              : 0;
+  left                : 46px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexadobe .bp6-sectionfooter .bp6-footer .bp6-socialicons {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 97px;
+  position            : absolute;
+  margin              : 0;
+  left                : 197px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexadobe .bp6-sectionfooter .bp6-footer .bp6-socialicons .bp6-dribbble {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 39px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexadobe .bp6-sectionfooter .bp6-footer .bp6-socialicons .bp6-dribbble .bp6-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 95.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 2.50%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexadobe .bp6-sectionfooter .bp6-footer .bp6-socialicons .bp6-dribbble .bp6-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 95.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 2.50%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp6-iphonexadobe .bp6-sectionfooter .bp6-footer .bp6-socialicons .bp6-linkedin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexadobe .bp6-sectionfooter .bp6-footer .bp6-socialicons .bp6-linkedin .bp6-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 95.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 2.50%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexadobe .bp6-sectionfooter .bp6-footer .bp6-socialicons .bp6-linkedin .bp6-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 95.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 2.50%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp6-iphonexadobe .bp6-sectionfooter .bp6-footer .bp6-socialicons .bp6-instagram {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 77px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexadobe .bp6-sectionfooter .bp6-footer .bp6-socialicons .bp6-instagram .bp6-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 95.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 2.50%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexadobe .bp6-sectionfooter .bp6-footer .bp6-socialicons .bp6-instagram .bp6-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 95.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 2.50%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp6-iphonexadobe .bp6-sectionfooter .bp6-footer .bp6-h3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : auto;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 9.03px;
+  color               : rgba(146, 146, 146, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.17px;
+  line-height         : 11.0px;
+}
+.bp6-iphonexadobe .bp6-swiftdark {
+  background-color    : rgba(248, 18, 34, 1.0);
+  top                 : 133px;
+  height              : 257px;
+  width               : 288px;
+  position            : absolute;
+  margin              : 0;
+  left                : 44px;
+  border-radius       : 4px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexadobe .bp6-swiftdark .bp6-mask {
+  background-color    : rgba(248, 18, 34, 1.0);
+  top                 : 0px;
+  height              : 257px;
+  width               : 288px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexadobe .bp6-swiftdark .bp6-card1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34px;
+  height              : 189px;
+  width               : 288px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexadobe .bp6-timeline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 624px;
+  height              : 21px;
+  width               : 129px;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexadobe .bp6-timeline .bp6-missioncopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 109px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 12.9px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.25px;
+  line-height         : 20.16px;
+}
+.bp6-iphonexadobe .bp6-timeline .bp6-lock {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 13px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexadobe .bp6-seemore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 688px;
+  height              : 12px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexadobe .bp6-seemore .bp6-seemore1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 99.01%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.50%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexadobe .bp6-seemore .bp6-seemore1 .bp6-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexadobe .bp6-seemore .bp6-seemore1 .bp6-group .bp6-back {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 6px);
+  height              : 12px;
+  width               : 86.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 12.1px;
+  color               : rgba(16, 16, 16, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.23px;
+  line-height         : 15.0px;
+}
+.bp6-iphonexadobe .bp6-seemore .bp6-seemore1 .bp6-group .bp6-a109617 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 12.50%;
+  height              : 75.00%;
+  width               : 13.00%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexadobe .bp6-seemore .bp6-seemore1 .bp6-group .bp6-a109617 .bp6-path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexadobe .bp6-seemore .bp6-seemorehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 99.01%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.50%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp6-iphonexadobe .bp6-seemore .bp6-seemorehover .bp6-back1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 6px);
+  height              : 12px;
+  width               : 87.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 12.1px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.23px;
+  line-height         : 15.0px;
+}
+.bp6-iphonexadobe .bp6-seemore .bp6-seemorehover .bp6-a1096171 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 12.50%;
+  height              : 75.00%;
+  width               : 13.00%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexadobe .bp6-seemore .bp6-seemorehover .bp6-a1096171 .bp6-path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
+@media screen and (max-width: 767px) {
+  .bp6-iphonexadobe {
+    display             : block;
+  }
+  .bp5-ipadadobe {
+    display             : none;
+  }
+  .bp4-ipadpro129adobe {
+    display             : none;
+  }
+  .bp3-web1280adobe {
+    display             : none;
+  }
+  .bp2-web1366adobe {
+    display             : none;
+  }
+  .bp1-adobe {
+    display             : none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .bp6-iphonexadobe {
+    display             : none;
+  }
+  .bp5-ipadadobe {
+    display             : block;
+  }
+  .bp4-ipadpro129adobe {
+    display             : none;
+  }
+  .bp3-web1280adobe {
+    display             : none;
+  }
+  .bp2-web1366adobe {
+    display             : none;
+  }
+  .bp1-adobe {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .bp6-iphonexadobe {
+    display             : none;
+  }
+  .bp5-ipadadobe {
+    display             : none;
+  }
+  .bp4-ipadpro129adobe {
+    display             : block;
+  }
+  .bp3-web1280adobe {
+    display             : none;
+  }
+  .bp2-web1366adobe {
+    display             : none;
+  }
+  .bp1-adobe {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1365px) {
+  .bp6-iphonexadobe {
+    display             : none;
+  }
+  .bp5-ipadadobe {
+    display             : none;
+  }
+  .bp4-ipadpro129adobe {
+    display             : none;
+  }
+  .bp3-web1280adobe {
+    display             : block;
+  }
+  .bp2-web1366adobe {
+    display             : none;
+  }
+  .bp1-adobe {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1366px) and (max-width: 1919px) {
+  .bp6-iphonexadobe {
+    display             : none;
+  }
+  .bp5-ipadadobe {
+    display             : none;
+  }
+  .bp4-ipadpro129adobe {
+    display             : none;
+  }
+  .bp3-web1280adobe {
+    display             : none;
+  }
+  .bp2-web1366adobe {
+    display             : block;
+  }
+  .bp1-adobe {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .bp6-iphonexadobe {
+    display             : none;
+  }
+  .bp5-ipadadobe {
+    display             : none;
+  }
+  .bp4-ipadpro129adobe {
+    display             : none;
+  }
+  .bp3-web1280adobe {
+    display             : none;
+  }
+  .bp2-web1366adobe {
+    display             : none;
+  }
+  .bp1-adobe {
+    display             : block;
+  }
+}

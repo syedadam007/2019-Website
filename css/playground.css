@@ -1,0 +1,5399 @@
+
+@font-face {
+                          font-family: "Gilroy-Medium";
+                          src: url('../fonts/Gilroy-Medium.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "Gilroy-Bold";
+                          src: url('../fonts/Gilroy-Bold.otf') format("opentype");
+                        }
+                        
+.anima-overlay {
+  position            : absolute;
+  opacity             : 0;
+  display             : none;
+  top                 : 0;
+  width               : 100%;
+  height              : 100%;
+}
+.bp1-playground {
+  width               : 100%;
+  min-width           : 1920px;
+  height              : 100vh;
+  min-height          : 4580px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(16, 16, 16, 1.0);
+  opacity             : 1.0;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp1-playground .bp1-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 4407px;
+  width               : 1920px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-playground .bp1-group .bp1-whitebg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 4407px;
+  width               : 1920px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-playground .bp1-group .bp1-projectbrief {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 423px;
+  height              : 279px;
+  width               : 1660px;
+  position            : absolute;
+  margin              : 0;
+  left                : 130px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-playground .bp1-group .bp1-projectbrief .bp1-projecttitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 279px;
+  width               : 1660px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-playground .bp1-group .bp1-projectbrief .bp1-projecttitle .bp1-h1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 52px;
+  height              : auto;
+  width               : 763px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Bold", Helvetica, Arial, serif;
+  font-size           : 70.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.35px;
+  line-height         : 90.0px;
+}
+.bp1-playground .bp1-group .bp1-projectbrief .bp1-projecttitle .bp1-missioncopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 179px;
+  height              : auto;
+  width               : 1661px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(39, 39, 39, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.62px;
+  line-height         : 50.0px;
+}
+.bp1-playground .bp1-group .bp1-projectbrief .bp1-projecttitle .bp1-missioncopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.62px;
+  line-height         : 39.0px;
+}
+.bp1-playground .bp1-group .bp1-spotify {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 790px;
+  height              : 1383px;
+  width               : 778px;
+  position            : absolute;
+  margin              : 0;
+  left                : 130px;
+  border-radius       : 10px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-playground .bp1-group .bp1-spotify .bp1-mask1 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 1383px;
+  width               : 778px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-playground .bp1-group .bp1-spotify .bp1-spotify1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1383px;
+  width               : 778px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-playground .bp1-group .bp1-mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2224px;
+  height              : 1383px;
+  width               : 778px;
+  position            : absolute;
+  margin              : 0;
+  left                : 960px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp1-playground .bp1-group .bp1-mask video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp1-playground .bp1-group .bp1-mask video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp1-playground .bp1-group .bp1-rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 790px;
+  height              : 666px;
+  width               : 778px;
+  position            : absolute;
+  margin              : 0;
+  left                : 960px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp1-playground .bp1-group .bp1-rectanglecopy video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp1-playground .bp1-group .bp1-rectanglecopy video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp1-playground .bp1-group .bp1-rectanglecopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1507px;
+  height              : 666px;
+  width               : 778px;
+  position            : absolute;
+  margin              : 0;
+  left                : 960px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp1-playground .bp1-group .bp1-rectanglecopy2 video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp1-playground .bp1-group .bp1-rectanglecopy2 video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp1-playground .bp1-group .bp1-rectanglecopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2224px;
+  height              : 666px;
+  width               : 778px;
+  position            : absolute;
+  margin              : 0;
+  left                : 130px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp1-playground .bp1-group .bp1-rectanglecopy4 video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp1-playground .bp1-group .bp1-rectanglecopy4 video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp1-playground .bp1-group .bp1-rectanglecopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2941px;
+  height              : 666px;
+  width               : 778px;
+  position            : absolute;
+  margin              : 0;
+  left                : 130px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp1-playground .bp1-group .bp1-rectanglecopy3 video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp1-playground .bp1-group .bp1-rectanglecopy3 video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp1-playground .bp1-group .bp1-rectanglecopy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3658px;
+  height              : 438px;
+  width               : 778px;
+  position            : absolute;
+  margin              : 0;
+  left                : 130px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp1-playground .bp1-group .bp1-rectanglecopy5 video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp1-playground .bp1-group .bp1-rectanglecopy5 video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp1-playground .bp1-group .bp1-rectanglecopy6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3658px;
+  height              : 438px;
+  width               : 778px;
+  position            : absolute;
+  margin              : 0;
+  left                : 960px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp1-playground .bp1-group .bp1-rectanglecopy6 video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp1-playground .bp1-group .bp1-rectanglecopy6 video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp1-playground .bp1-seemore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4230px;
+  height              : 30px;
+  width               : 317px;
+  position            : absolute;
+  margin              : 0;
+  left                : 130px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-playground .bp1-seemore .bp1-seemore1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-playground .bp1-seemore .bp1-seemore1 .bp1-back {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 15px);
+  height              : 30px;
+  width               : 83.60%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.58px;
+  line-height         : 36.0px;
+}
+.bp1-playground .bp1-seemore .bp1-seemore1 .bp1-a109617 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 11.67%;
+  height              : 76.67%;
+  width               : 10.09%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-playground .bp1-seemore .bp1-seemore1 .bp1-a109617 .bp1-path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2.17%;
+  height              : 95.65%;
+  width               : 96.88%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.56%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-playground .bp1-seemore .bp1-seemorehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp1-playground .bp1-seemore .bp1-seemorehover .bp1-back1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 15px);
+  height              : 30px;
+  width               : 83.60%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.58px;
+  line-height         : 36.0px;
+}
+.bp1-playground .bp1-seemore .bp1-seemorehover .bp1-a1096171 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 11.67%;
+  height              : 76.67%;
+  width               : 10.09%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-playground .bp1-seemore .bp1-seemorehover .bp1-a1096171 .bp1-path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2.17%;
+  height              : 95.65%;
+  width               : 96.88%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.56%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-playground .bp1-sectionfooter {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4377px;
+  height              : 213px;
+  width               : 1960px;
+  position            : absolute;
+  margin              : 0;
+  left                : -20px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-playground .bp1-sectionfooter .bp1-bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 213px;
+  width               : 1960px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-playground .bp1-sectionfooter .bp1-footer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 89px;
+  height              : 60px;
+  width               : 1669px;
+  position            : absolute;
+  margin              : 0;
+  left                : 145px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-playground .bp1-sectionfooter .bp1-footer .bp1-socialicons {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 300px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1369px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-playground .bp1-sectionfooter .bp1-footer .bp1-socialicons .bp1-dribbble {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 60px;
+  position            : absolute;
+  margin              : 0;
+  left                : 120px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-playground .bp1-sectionfooter .bp1-footer .bp1-socialicons .bp1-dribbble .bp1-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-playground .bp1-sectionfooter .bp1-footer .bp1-socialicons .bp1-dribbble .bp1-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp1-playground .bp1-sectionfooter .bp1-footer .bp1-socialicons .bp1-linkedin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 60px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-playground .bp1-sectionfooter .bp1-footer .bp1-socialicons .bp1-linkedin .bp1-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-playground .bp1-sectionfooter .bp1-footer .bp1-socialicons .bp1-linkedin .bp1-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp1-playground .bp1-sectionfooter .bp1-footer .bp1-socialicons .bp1-instagram {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 59px;
+  width               : 60px;
+  position            : absolute;
+  margin              : 0;
+  left                : 240px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-playground .bp1-sectionfooter .bp1-footer .bp1-socialicons .bp1-instagram .bp1-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-playground .bp1-sectionfooter .bp1-footer .bp1-socialicons .bp1-instagram .bp1-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp1-playground .bp1-sectionfooter .bp1-footer .bp1-h3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(146, 146, 146, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.62px;
+  line-height         : 39.0px;
+}
+.bp1-playground .bp1-navbarwork {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 100px;
+  height              : 44px;
+  width               : 1661px;
+  position            : absolute;
+  margin              : 0;
+  left                : 130px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-playground .bp1-navbarwork .bp1-back {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 30px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-playground .bp1-navbarwork .bp1-back .bp1-back1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 15px);
+  height              : 30px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(16, 16, 16, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.58px;
+  line-height         : 36.0px;
+}
+.bp1-playground .bp1-navbarwork .bp1-back .bp1-backhover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 15px);
+  height              : 30px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.58px;
+  line-height         : 36.0px;
+}
+.bp1-playground .bp1-navbarwork .bp1-logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 256px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1405px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-playground .bp1-navbarwork .bp1-logo .bp1-adamoutline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 99.61%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-playground .bp1-navbarwork .bp1-logo .bp1-adamoutline .bp1-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.14%;
+  height              : 97.73%;
+  width               : 82.35%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-playground .bp1-navbarwork .bp1-logo .bp1-adamoutline .bp1-path {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.39%;
+  bottom              : 13.64%;
+  height              : 65.91%;
+  width               : 10.98%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-playground .bp1-navbarwork .bp1-logo .bp1-adamfill {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 2.27%;
+  height              : 95.45%;
+  width               : 99.22%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp1-playground .bp1-navbarwork .bp1-logo .bp1-adamfill .bp1-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 81.50%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-playground .bp1-navbarwork .bp1-logo .bp1-adamfill .bp1-path1 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.39%;
+  bottom              : 11.90%;
+  height              : 71.43%;
+  width               : 11.42%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
+.bp5-ipadplayground {
+  width               : 100%;
+  min-width           : 768px;
+  height              : 100vh;
+  min-height          : 1960px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp5-ipadplayground .bp5-sectionhero {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 102px;
+  width               : 768px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadplayground .bp5-sectionhero .bp5-navbar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 102px;
+  width               : 768px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadplayground .bp5-sectionhero .bp5-navbar .bp5-rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 101px;
+  width               : 768px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadplayground .bp5-sectionhero .bp5-navbar .bp5-logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 41px;
+  height              : 23px;
+  width               : 135px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadplayground .bp5-sectionhero .bp5-navbar .bp5-logo .bp5-adamoutline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadplayground .bp5-sectionhero .bp5-navbar .bp5-logo .bp5-adamoutline .bp5-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 82.22%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadplayground .bp5-sectionhero .bp5-navbar .bp5-logo .bp5-adamoutline .bp5-path {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.74%;
+  bottom              : 13.04%;
+  height              : 65.22%;
+  width               : 11.11%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadplayground .bp5-sectionhero .bp5-navbar .bp5-logo .bp5-adamfill {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2.17%;
+  height              : 95.65%;
+  width               : 99.26%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.37%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp5-ipadplayground .bp5-sectionhero .bp5-navbar .bp5-logo .bp5-adamfill .bp5-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 81.34%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadplayground .bp5-sectionhero .bp5-navbar .bp5-logo .bp5-adamfill .bp5-path1 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.75%;
+  bottom              : 9.09%;
+  height              : 72.73%;
+  width               : 11.19%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadplayground .bp5-sectionhero .bp5-navbar .bp5-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 44px;
+  height              : 20px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 693px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadplayground .bp5-sectionfooter {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1880px;
+  height              : 83px;
+  width               : 782px;
+  position            : absolute;
+  margin              : 0;
+  left                : -8px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadplayground .bp5-sectionfooter .bp5-bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 83px;
+  width               : 782px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadplayground .bp5-sectionfooter .bp5-footer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : 25px;
+  width               : 668px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadplayground .bp5-sectionfooter .bp5-footer .bp5-socialicons {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 548px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadplayground .bp5-sectionfooter .bp5-footer .bp5-socialicons .bp5-dribbble {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadplayground .bp5-sectionfooter .bp5-footer .bp5-socialicons .bp5-dribbble .bp5-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadplayground .bp5-sectionfooter .bp5-footer .bp5-socialicons .bp5-dribbble .bp5-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp5-ipadplayground .bp5-sectionfooter .bp5-footer .bp5-socialicons .bp5-linkedin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadplayground .bp5-sectionfooter .bp5-footer .bp5-socialicons .bp5-linkedin .bp5-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadplayground .bp5-sectionfooter .bp5-footer .bp5-socialicons .bp5-linkedin .bp5-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp5-ipadplayground .bp5-sectionfooter .bp5-footer .bp5-socialicons .bp5-instagram {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 95px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadplayground .bp5-sectionfooter .bp5-footer .bp5-socialicons .bp5-instagram .bp5-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2.08%;
+  height              : 95.83%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadplayground .bp5-sectionfooter .bp5-footer .bp5-socialicons .bp5-instagram .bp5-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2.08%;
+  height              : 95.83%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp5-ipadplayground .bp5-sectionfooter .bp5-footer .bp5-h3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : 111px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 11.29px;
+  color               : rgba(146, 146, 146, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.22px;
+  line-height         : 14.0px;
+}
+.bp5-ipadplayground .bp5-seemore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1803px;
+  height              : 15px;
+  width               : 160px;
+  position            : absolute;
+  margin              : 0;
+  left                : 53px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadplayground .bp5-seemore .bp5-seemore1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadplayground .bp5-seemore .bp5-seemore1 .bp5-back {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 8px);
+  height              : 15px;
+  width               : 90.62%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 15.12px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.29px;
+  line-height         : 18.0px;
+}
+.bp5-ipadplayground .bp5-seemore .bp5-seemore1 .bp5-a109617 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 10.00%;
+  height              : 80.00%;
+  width               : 10.00%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadplayground .bp5-seemore .bp5-seemore1 .bp5-a109617 .bp5-path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4.17%;
+  height              : 91.67%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadplayground .bp5-seemore .bp5-seemorehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp5-ipadplayground .bp5-seemore .bp5-seemorehover .bp5-back1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 8px);
+  height              : 15px;
+  width               : 90.62%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 15.12px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.29px;
+  line-height         : 18.0px;
+}
+.bp5-ipadplayground .bp5-seemore .bp5-seemorehover .bp5-a1096171 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 10.00%;
+  height              : 80.00%;
+  width               : 10.00%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadplayground .bp5-seemore .bp5-seemorehover .bp5-a1096171 .bp5-path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4.17%;
+  height              : 91.67%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadplayground .bp5-projectbrief {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 197px;
+  height              : 143px;
+  width               : 662px;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadplayground .bp5-projectbrief .bp5-projecttitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 143px;
+  width               : 662px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadplayground .bp5-projectbrief .bp5-projecttitle .bp5-h1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 27px;
+  height              : auto;
+  width               : 391px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Bold", Helvetica, Arial, serif;
+  font-size           : 35.28px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.68px;
+  line-height         : 45.36px;
+}
+.bp5-ipadplayground .bp5-projectbrief .bp5-projecttitle .bp5-missioncopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 92px;
+  height              : auto;
+  width               : 662px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 16.13px;
+  color               : rgba(39, 39, 39, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.31px;
+  line-height         : 25.2px;
+}
+.bp5-ipadplayground .bp5-projectbrief .bp5-projecttitle .bp5-missioncopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -0px;
+  height              : auto;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 16.13px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.31px;
+  line-height         : 19.0px;
+}
+.bp5-ipadplayground .bp5-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 417px;
+  height              : 1313px;
+  width               : 641px;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadplayground .bp5-group .bp5-spotify {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 550px;
+  width               : 310px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 5px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadplayground .bp5-group .bp5-spotify .bp5-mask1 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 550px;
+  width               : 310px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 5px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadplayground .bp5-group .bp5-spotify .bp5-spotify1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 550px;
+  width               : 310px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp5-ipadplayground .bp5-group .bp5-mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 571px;
+  height              : 549px;
+  width               : 309px;
+  position            : absolute;
+  margin              : 0;
+  left                : 331px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp5-ipadplayground .bp5-group .bp5-mask video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp5-ipadplayground .bp5-group .bp5-mask video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp5-ipadplayground .bp5-group .bp5-rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 265px;
+  width               : 310px;
+  position            : absolute;
+  margin              : 0;
+  left                : 331px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp5-ipadplayground .bp5-group .bp5-rectanglecopy video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp5-ipadplayground .bp5-group .bp5-rectanglecopy video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp5-ipadplayground .bp5-group .bp5-rectanglecopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 286px;
+  height              : 264px;
+  width               : 309px;
+  position            : absolute;
+  margin              : 0;
+  left                : 331px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp5-ipadplayground .bp5-group .bp5-rectanglecopy2 video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp5-ipadplayground .bp5-group .bp5-rectanglecopy2 video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp5-ipadplayground .bp5-group .bp5-rectanglecopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 570px;
+  height              : 265px;
+  width               : 310px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp5-ipadplayground .bp5-group .bp5-rectanglecopy4 video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp5-ipadplayground .bp5-group .bp5-rectanglecopy4 video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp5-ipadplayground .bp5-group .bp5-rectanglecopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 855px;
+  height              : 264px;
+  width               : 309px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp5-ipadplayground .bp5-group .bp5-rectanglecopy3 video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp5-ipadplayground .bp5-group .bp5-rectanglecopy3 video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp5-ipadplayground .bp5-group .bp5-rectanglecopy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1139px;
+  height              : 174px;
+  width               : 309px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp5-ipadplayground .bp5-group .bp5-rectanglecopy5 video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp5-ipadplayground .bp5-group .bp5-rectanglecopy5 video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp5-ipadplayground .bp5-group .bp5-rectanglecopy6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1139px;
+  height              : 174px;
+  width               : 309px;
+  position            : absolute;
+  margin              : 0;
+  left                : 332px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp5-ipadplayground .bp5-group .bp5-rectanglecopy6 video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp5-ipadplayground .bp5-group .bp5-rectanglecopy6 video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
+.bp3-web1280playground {
+  width               : 100%;
+  min-width           : 1280px;
+  height              : 100vh;
+  min-height          : 2968px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp3-web1280playground .bp3-group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 2836px;
+  width               : 1229px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280playground .bp3-group3 .bp3-rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 2836px;
+  width               : 1229px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280playground .bp3-sectionfooter {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2833px;
+  height              : 142px;
+  width               : 1310px;
+  position            : absolute;
+  margin              : 0;
+  left                : -13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280playground .bp3-sectionfooter .bp3-bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 142px;
+  width               : 1310px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280playground .bp3-sectionfooter .bp3-footer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 58px;
+  height              : 41px;
+  width               : 1118px;
+  position            : absolute;
+  margin              : 0;
+  left                : 97px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280playground .bp3-sectionfooter .bp3-footer .bp3-socialicons {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 41px;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  left                : 916px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280playground .bp3-sectionfooter .bp3-footer .bp3-socialicons .bp3-dribbble {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 41px;
+  width               : 41px;
+  position            : absolute;
+  margin              : 0;
+  left                : 80px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280playground .bp3-sectionfooter .bp3-footer .bp3-socialicons .bp3-dribbble .bp3-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 97.56%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.22%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280playground .bp3-sectionfooter .bp3-footer .bp3-socialicons .bp3-dribbble .bp3-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 97.56%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.22%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp3-web1280playground .bp3-sectionfooter .bp3-footer .bp3-socialicons .bp3-linkedin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 41px;
+  width               : 41px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280playground .bp3-sectionfooter .bp3-footer .bp3-socialicons .bp3-linkedin .bp3-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 97.56%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.22%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280playground .bp3-sectionfooter .bp3-footer .bp3-socialicons .bp3-linkedin .bp3-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 97.56%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.22%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp3-web1280playground .bp3-sectionfooter .bp3-footer .bp3-socialicons .bp3-instagram {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 40px;
+  width               : 41px;
+  position            : absolute;
+  margin              : 0;
+  left                : 160px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280playground .bp3-sectionfooter .bp3-footer .bp3-socialicons .bp3-instagram .bp3-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 97.56%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.22%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280playground .bp3-sectionfooter .bp3-footer .bp3-socialicons .bp3-instagram .bp3-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 97.56%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.22%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp3-web1280playground .bp3-sectionfooter .bp3-footer .bp3-h3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : auto;
+  width               : 187px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 20.16px;
+  color               : rgba(146, 146, 146, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.39px;
+  line-height         : 25.0px;
+}
+.bp3-web1280playground .bp3-seemore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2719px;
+  height              : 19px;
+  width               : 200px;
+  position            : absolute;
+  margin              : 0;
+  left                : 108px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280playground .bp3-seemore .bp3-seemore1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280playground .bp3-seemore .bp3-seemore1 .bp3-back {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 10px);
+  height              : 19px;
+  width               : 90.50%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 18.9px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 23.0px;
+}
+.bp3-web1280playground .bp3-seemore .bp3-seemore1 .bp3-a109617 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 13.16%;
+  height              : 73.68%;
+  width               : 10.00%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280playground .bp3-seemore .bp3-seemore1 .bp3-a109617 .bp3-path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280playground .bp3-seemore .bp3-seemorehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp3-web1280playground .bp3-seemore .bp3-seemorehover .bp3-back1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 10px);
+  height              : 19px;
+  width               : 90.50%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 18.9px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 23.0px;
+}
+.bp3-web1280playground .bp3-seemore .bp3-seemorehover .bp3-a1096171 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 13.16%;
+  height              : 73.68%;
+  width               : 10.00%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280playground .bp3-seemore .bp3-seemorehover .bp3-a1096171 .bp3-path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280playground .bp3-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 258px;
+  height              : 2352px;
+  width               : 1064px;
+  position            : absolute;
+  margin              : 0;
+  left                : 109px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280playground .bp3-group .bp3-projectbrief {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 178px;
+  width               : 1063px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280playground .bp3-group .bp3-projectbrief .bp3-projecttitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 178px;
+  width               : 1063px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280playground .bp3-group .bp3-projectbrief .bp3-projecttitle .bp3-h1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34px;
+  height              : auto;
+  width               : 488px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Bold", Helvetica, Arial, serif;
+  font-size           : 44.1px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.85px;
+  line-height         : 56.7px;
+}
+.bp3-web1280playground .bp3-group .bp3-projectbrief .bp3-projecttitle .bp3-missioncopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 115px;
+  height              : auto;
+  width               : 1063px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 20.16px;
+  color               : rgba(39, 39, 39, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.39px;
+  line-height         : 31.5px;
+}
+.bp3-web1280playground .bp3-group .bp3-projectbrief .bp3-projecttitle .bp3-missioncopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 163px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 20.16px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.39px;
+  line-height         : 25.0px;
+}
+.bp3-web1280playground .bp3-group .bp3-spotify {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 235px;
+  height              : 886px;
+  width               : 499px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 6px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280playground .bp3-group .bp3-spotify .bp3-mask1 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 886px;
+  width               : 498px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280playground .bp3-group .bp3-spotify .bp3-spotify1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 886px;
+  width               : 498px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280playground .bp3-group .bp3-mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1153px;
+  height              : 886px;
+  width               : 499px;
+  position            : absolute;
+  margin              : 0;
+  left                : 532px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp3-web1280playground .bp3-group .bp3-mask video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp3-web1280playground .bp3-group .bp3-mask video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp3-web1280playground .bp3-group .bp3-rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 234px;
+  height              : 428px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 531px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp3-web1280playground .bp3-group .bp3-rectanglecopy video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp3-web1280playground .bp3-group .bp3-rectanglecopy video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp3-web1280playground .bp3-group .bp3-rectanglecopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 693px;
+  height              : 428px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 531px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp3-web1280playground .bp3-group .bp3-rectanglecopy2 video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp3-web1280playground .bp3-group .bp3-rectanglecopy2 video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp3-web1280playground .bp3-group .bp3-rectanglecopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1152px;
+  height              : 428px;
+  width               : 499px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp3-web1280playground .bp3-group .bp3-rectanglecopy4 video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp3-web1280playground .bp3-group .bp3-rectanglecopy4 video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp3-web1280playground .bp3-group .bp3-rectanglecopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1611px;
+  height              : 428px;
+  width               : 499px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp3-web1280playground .bp3-group .bp3-rectanglecopy3 video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp3-web1280playground .bp3-group .bp3-rectanglecopy3 video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp3-web1280playground .bp3-group .bp3-rectanglecopy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2070px;
+  height              : 282px;
+  width               : 499px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp3-web1280playground .bp3-group .bp3-rectanglecopy5 video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp3-web1280playground .bp3-group .bp3-rectanglecopy5 video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp3-web1280playground .bp3-group .bp3-rectanglecopy6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2070px;
+  height              : 282px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 531px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp3-web1280playground .bp3-group .bp3-rectanglecopy6 video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp3-web1280playground .bp3-group .bp3-rectanglecopy6 video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp3-web1280playground .bp3-navbarwork {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 186px;
+  width               : 1281px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280playground .bp3-navbarwork .bp3-rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 185px;
+  width               : 1280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280playground .bp3-navbarwork .bp3-group4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 105px;
+  height              : 28px;
+  width               : 1048px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280playground .bp3-navbarwork .bp3-group4 .bp3-back {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 19px;
+  width               : 68px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280playground .bp3-navbarwork .bp3-group4 .bp3-back .bp3-back1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 10px);
+  height              : 19px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 18.9px;
+  color               : rgba(16, 16, 16, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 23.0px;
+}
+.bp3-web1280playground .bp3-navbarwork .bp3-group4 .bp3-back .bp3-backhover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 10px);
+  height              : 19px;
+  width               : 94.12%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 18.9px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.36px;
+  line-height         : 23.0px;
+}
+.bp3-web1280playground .bp3-navbarwork .bp3-group4 .bp3-logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 162px;
+  position            : absolute;
+  margin              : 0;
+  left                : 885px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280playground .bp3-navbarwork .bp3-group4 .bp3-logo .bp3-adamoutline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 99.38%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.31%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280playground .bp3-navbarwork .bp3-group4 .bp3-logo .bp3-adamoutline .bp3-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.79%;
+  height              : 96.43%;
+  width               : 81.99%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280playground .bp3-navbarwork .bp3-group4 .bp3-logo .bp3-adamoutline .bp3-path {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  bottom              : 14.29%;
+  height              : 64.29%;
+  width               : 11.18%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280playground .bp3-navbarwork .bp3-group4 .bp3-logo .bp3-adamfill {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.79%;
+  height              : 96.43%;
+  width               : 98.77%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.62%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp3-web1280playground .bp3-navbarwork .bp3-group4 .bp3-logo .bp3-adamfill .bp3-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.85%;
+  height              : 96.30%;
+  width               : 81.25%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-web1280playground .bp3-navbarwork .bp3-group4 .bp3-logo .bp3-adamfill .bp3-path1 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 14.81%;
+  height              : 70.37%;
+  width               : 11.25%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
+.bp2-web1366playground {
+  width               : 100%;
+  min-width           : 1366px;
+  height              : 100vh;
+  min-height          : 3247px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp2-web1366playground .bp2-navbarwork {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 101px;
+  height              : 31px;
+  width               : 1164px;
+  position            : absolute;
+  margin              : 0;
+  left                : 101px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366playground .bp2-navbarwork .bp2-back {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 21px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366playground .bp2-navbarwork .bp2-back .bp2-back1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 11px);
+  height              : 21px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 21.0px;
+  color               : rgba(16, 16, 16, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.4px;
+  line-height         : 25.0px;
+}
+.bp2-web1366playground .bp2-navbarwork .bp2-back .bp2-backhover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 11px);
+  height              : 21px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 21.0px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.4px;
+  line-height         : 25.0px;
+}
+.bp2-web1366playground .bp2-navbarwork .bp2-logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 31px;
+  width               : 180px;
+  position            : absolute;
+  margin              : 0;
+  left                : 984px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366playground .bp2-navbarwork .bp2-logo .bp2-adamoutline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 99.44%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.28%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366playground .bp2-navbarwork .bp2-logo .bp2-adamoutline .bp2-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.61%;
+  height              : 96.77%;
+  width               : 82.12%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366playground .bp2-navbarwork .bp2-logo .bp2-adamoutline .bp2-path {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.56%;
+  top                 : 17.74%;
+  height              : 64.52%;
+  width               : 11.17%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366playground .bp2-navbarwork .bp2-logo .bp2-adamfill {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.61%;
+  height              : 96.77%;
+  width               : 98.89%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.56%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp2-web1366playground .bp2-navbarwork .bp2-logo .bp2-adamfill .bp2-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.67%;
+  height              : 96.67%;
+  width               : 81.46%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366playground .bp2-navbarwork .bp2-logo .bp2-adamfill .bp2-path1 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.56%;
+  top                 : 15.00%;
+  height              : 70.00%;
+  width               : 11.24%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366playground .bp2-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 270px;
+  height              : 2613px;
+  width               : 1182px;
+  position            : absolute;
+  margin              : 0;
+  left                : 101px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366playground .bp2-group .bp2-projectbrief {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 198px;
+  width               : 1181px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366playground .bp2-group .bp2-projectbrief .bp2-projecttitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 198px;
+  width               : 1181px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366playground .bp2-group .bp2-projectbrief .bp2-projecttitle .bp2-h1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37px;
+  height              : auto;
+  width               : 543px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Bold", Helvetica, Arial, serif;
+  font-size           : 49.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.94px;
+  line-height         : 63.0px;
+}
+.bp2-web1366playground .bp2-group .bp2-projectbrief .bp2-projecttitle .bp2-missioncopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 128px;
+  height              : auto;
+  width               : 1181px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 22.4px;
+  color               : rgba(39, 39, 39, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.43px;
+  line-height         : 35.0px;
+}
+.bp2-web1366playground .bp2-group .bp2-projectbrief .bp2-projecttitle .bp2-missioncopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -0px;
+  height              : auto;
+  width               : 181px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 22.4px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.43px;
+  line-height         : 27.0px;
+}
+.bp2-web1366playground .bp2-group .bp2-spotify {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 261px;
+  height              : 985px;
+  width               : 554px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 7px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366playground .bp2-group .bp2-spotify .bp2-mask1 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 984px;
+  width               : 554px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 7px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366playground .bp2-group .bp2-spotify .bp2-spotify1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 984px;
+  width               : 554px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366playground .bp2-group .bp2-mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1281px;
+  height              : 984px;
+  width               : 554px;
+  position            : absolute;
+  margin              : 0;
+  left                : 591px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp2-web1366playground .bp2-group .bp2-mask video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp2-web1366playground .bp2-group .bp2-mask video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp2-web1366playground .bp2-group .bp2-rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 261px;
+  height              : 474px;
+  width               : 554px;
+  position            : absolute;
+  margin              : 0;
+  left                : 591px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp2-web1366playground .bp2-group .bp2-rectanglecopy video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp2-web1366playground .bp2-group .bp2-rectanglecopy video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp2-web1366playground .bp2-group .bp2-rectanglecopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 771px;
+  height              : 474px;
+  width               : 554px;
+  position            : absolute;
+  margin              : 0;
+  left                : 591px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp2-web1366playground .bp2-group .bp2-rectanglecopy2 video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp2-web1366playground .bp2-group .bp2-rectanglecopy2 video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp2-web1366playground .bp2-group .bp2-rectanglecopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1281px;
+  height              : 474px;
+  width               : 554px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp2-web1366playground .bp2-group .bp2-rectanglecopy4 video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp2-web1366playground .bp2-group .bp2-rectanglecopy4 video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp2-web1366playground .bp2-group .bp2-rectanglecopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1791px;
+  height              : 474px;
+  width               : 554px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp2-web1366playground .bp2-group .bp2-rectanglecopy3 video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp2-web1366playground .bp2-group .bp2-rectanglecopy3 video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp2-web1366playground .bp2-group .bp2-rectanglecopy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2301px;
+  height              : 312px;
+  width               : 554px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp2-web1366playground .bp2-group .bp2-rectanglecopy5 video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp2-web1366playground .bp2-group .bp2-rectanglecopy5 video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp2-web1366playground .bp2-group .bp2-rectanglecopy6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2301px;
+  height              : 312px;
+  width               : 554px;
+  position            : absolute;
+  margin              : 0;
+  left                : 591px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp2-web1366playground .bp2-group .bp2-rectanglecopy6 video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp2-web1366playground .bp2-group .bp2-rectanglecopy6 video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp2-web1366playground .bp2-seemore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2993px;
+  height              : 21px;
+  width               : 223px;
+  position            : absolute;
+  margin              : 0;
+  left                : 101px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366playground .bp2-seemore .bp2-seemore1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366playground .bp2-seemore .bp2-seemore1 .bp2-back {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 11px);
+  height              : 21px;
+  width               : 83.41%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 21.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.4px;
+  line-height         : 25.0px;
+}
+.bp2-web1366playground .bp2-seemore .bp2-seemore1 .bp2-a109617 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 11.90%;
+  height              : 76.19%;
+  width               : 10.31%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366playground .bp2-seemore .bp2-seemore1 .bp2-a109617 .bp2-path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3.12%;
+  height              : 93.75%;
+  width               : 95.65%;
+  position            : absolute;
+  margin              : 0;
+  left                : 2.17%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366playground .bp2-seemore .bp2-seemorehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp2-web1366playground .bp2-seemore .bp2-seemorehover .bp2-back1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 11px);
+  height              : 21px;
+  width               : 83.41%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 21.0px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.4px;
+  line-height         : 25.0px;
+}
+.bp2-web1366playground .bp2-seemore .bp2-seemorehover .bp2-a1096171 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 11.90%;
+  height              : 76.19%;
+  width               : 10.31%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366playground .bp2-seemore .bp2-seemorehover .bp2-a1096171 .bp2-path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3.12%;
+  height              : 93.75%;
+  width               : 95.65%;
+  position            : absolute;
+  margin              : 0;
+  left                : 2.17%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366playground .bp2-sectionfooter {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3103px;
+  height              : 151px;
+  width               : 1394px;
+  position            : absolute;
+  margin              : 0;
+  left                : -14px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366playground .bp2-sectionfooter .bp2-bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 151px;
+  width               : 1394px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366playground .bp2-sectionfooter .bp2-footer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 63px;
+  height              : 44px;
+  width               : 1188px;
+  position            : absolute;
+  margin              : 0;
+  left                : 103px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366playground .bp2-sectionfooter .bp2-footer .bp2-socialicons {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 214px;
+  position            : absolute;
+  margin              : 0;
+  left                : 974px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366playground .bp2-sectionfooter .bp2-footer .bp2-socialicons .bp2-dribbble {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 43px;
+  width               : 43px;
+  position            : absolute;
+  margin              : 0;
+  left                : 85px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366playground .bp2-sectionfooter .bp2-footer .bp2-socialicons .bp2-dribbble .bp2-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366playground .bp2-sectionfooter .bp2-footer .bp2-socialicons .bp2-dribbble .bp2-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp2-web1366playground .bp2-sectionfooter .bp2-footer .bp2-socialicons .bp2-linkedin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 43px;
+  width               : 43px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366playground .bp2-sectionfooter .bp2-footer .bp2-socialicons .bp2-linkedin .bp2-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366playground .bp2-sectionfooter .bp2-footer .bp2-socialicons .bp2-linkedin .bp2-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp2-web1366playground .bp2-sectionfooter .bp2-footer .bp2-socialicons .bp2-instagram {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 43px;
+  width               : 43px;
+  position            : absolute;
+  margin              : 0;
+  left                : 171px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366playground .bp2-sectionfooter .bp2-footer .bp2-socialicons .bp2-instagram .bp2-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.16%;
+  height              : 97.67%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-web1366playground .bp2-sectionfooter .bp2-footer .bp2-socialicons .bp2-instagram .bp2-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.16%;
+  height              : 97.67%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp2-web1366playground .bp2-sectionfooter .bp2-footer .bp2-h3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : auto;
+  width               : 199px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 22.4px;
+  color               : rgba(146, 146, 146, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.43px;
+  line-height         : 27.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
+.bp4-ipadpro129playground {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100vh;
+  min-height          : 2366px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp4-ipadpro129playground .bp4-group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 150px;
+  width               : 1026px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129playground .bp4-group3 .bp4-navbarwork {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 149px;
+  width               : 1025px;
+  position            : relative;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129playground .bp4-group3 .bp4-navbarwork .bp4-rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 148px;
+  width               : 1024px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129playground .bp4-group3 .bp4-navbarwork .bp4-group4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 84px;
+  height              : 22px;
+  width               : 839px;
+  position            : absolute;
+  margin              : 0;
+  left                : 90px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129playground .bp4-group3 .bp4-navbarwork .bp4-group4 .bp4-back {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 15px;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129playground .bp4-group3 .bp4-navbarwork .bp4-group4 .bp4-back .bp4-back1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 8px);
+  height              : 15px;
+  width               : 98.18%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.91%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 15.12px;
+  color               : rgba(16, 16, 16, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.29px;
+  line-height         : 18.0px;
+}
+.bp4-ipadpro129playground .bp4-group3 .bp4-navbarwork .bp4-group4 .bp4-back .bp4-backhover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 8px);
+  height              : 15px;
+  width               : 92.73%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 15.12px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.29px;
+  line-height         : 18.0px;
+}
+.bp4-ipadpro129playground .bp4-group3 .bp4-navbarwork .bp4-group4 .bp4-logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 708px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129playground .bp4-group3 .bp4-navbarwork .bp4-group4 .bp4-logo .bp4-adamoutline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 99.23%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.38%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129playground .bp4-group3 .bp4-navbarwork .bp4-group4 .bp4-logo .bp4-adamoutline .bp4-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 82.17%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129playground .bp4-group3 .bp4-navbarwork .bp4-group4 .bp4-logo .bp4-adamoutline .bp4-path {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.78%;
+  top                 : 15.91%;
+  height              : 68.18%;
+  width               : 10.85%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129playground .bp4-group3 .bp4-navbarwork .bp4-group4 .bp4-logo .bp4-adamfill {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2.27%;
+  height              : 95.45%;
+  width               : 98.46%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.77%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp4-ipadpro129playground .bp4-group3 .bp4-navbarwork .bp4-group4 .bp4-logo .bp4-adamfill .bp4-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 81.25%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129playground .bp4-group3 .bp4-navbarwork .bp4-group4 .bp4-logo .bp4-adamfill .bp4-path1 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  bottom              : 9.52%;
+  height              : 71.43%;
+  width               : 11.72%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129playground .bp4-sectionfooter {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2258px;
+  height              : 113px;
+  width               : 1047px;
+  position            : absolute;
+  margin              : 0;
+  left                : -12px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129playground .bp4-sectionfooter .bp4-bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 113px;
+  width               : 1047px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129playground .bp4-sectionfooter .bp4-footer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 46px;
+  height              : 33px;
+  width               : 895px;
+  position            : absolute;
+  margin              : 0;
+  left                : 77px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129playground .bp4-sectionfooter .bp4-footer .bp4-socialicons {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 33px;
+  width               : 162px;
+  position            : absolute;
+  margin              : 0;
+  left                : 733px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129playground .bp4-sectionfooter .bp4-footer .bp4-socialicons .bp4-dribbble {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 33px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 64px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129playground .bp4-sectionfooter .bp4-footer .bp4-socialicons .bp4-dribbble .bp4-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.52%;
+  height              : 96.97%;
+  width               : 96.97%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.52%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129playground .bp4-sectionfooter .bp4-footer .bp4-socialicons .bp4-dribbble .bp4-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.52%;
+  height              : 96.97%;
+  width               : 96.97%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.52%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp4-ipadpro129playground .bp4-sectionfooter .bp4-footer .bp4-socialicons .bp4-linkedin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 33px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129playground .bp4-sectionfooter .bp4-footer .bp4-socialicons .bp4-linkedin .bp4-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.52%;
+  height              : 96.97%;
+  width               : 96.97%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.52%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129playground .bp4-sectionfooter .bp4-footer .bp4-socialicons .bp4-linkedin .bp4-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.52%;
+  height              : 96.97%;
+  width               : 96.97%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.52%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp4-ipadpro129playground .bp4-sectionfooter .bp4-footer .bp4-socialicons .bp4-instagram {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 32px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 128px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129playground .bp4-sectionfooter .bp4-footer .bp4-socialicons .bp4-instagram .bp4-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 96.97%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.52%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129playground .bp4-sectionfooter .bp4-footer .bp4-socialicons .bp4-instagram .bp4-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 96.97%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.52%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp4-ipadpro129playground .bp4-sectionfooter .bp4-footer .bp4-h3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : auto;
+  width               : 149px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 16.13px;
+  color               : rgba(146, 146, 146, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.31px;
+  line-height         : 19.0px;
+}
+.bp4-ipadpro129playground .bp4-seemore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2175px;
+  height              : 15px;
+  width               : 160px;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129playground .bp4-seemore .bp4-seemore1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129playground .bp4-seemore .bp4-seemore1 .bp4-back {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 8px);
+  height              : 15px;
+  width               : 90.62%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 15.12px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.29px;
+  line-height         : 18.0px;
+}
+.bp4-ipadpro129playground .bp4-seemore .bp4-seemore1 .bp4-a109617 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 10.00%;
+  height              : 80.00%;
+  width               : 10.00%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129playground .bp4-seemore .bp4-seemore1 .bp4-a109617 .bp4-path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4.17%;
+  height              : 91.67%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129playground .bp4-seemore .bp4-seemorehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp4-ipadpro129playground .bp4-seemore .bp4-seemorehover .bp4-back1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 8px);
+  height              : 15px;
+  width               : 90.62%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 15.12px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.29px;
+  line-height         : 18.0px;
+}
+.bp4-ipadpro129playground .bp4-seemore .bp4-seemorehover .bp4-a1096171 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 10.00%;
+  height              : 80.00%;
+  width               : 10.00%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129playground .bp4-seemore .bp4-seemorehover .bp4-a1096171 .bp4-path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4.17%;
+  height              : 91.67%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129playground .bp4-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 210px;
+  height              : 1882px;
+  width               : 852px;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129playground .bp4-group .bp4-projectbrief {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 143px;
+  width               : 851px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129playground .bp4-group .bp4-projectbrief .bp4-projecttitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 143px;
+  width               : 851px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129playground .bp4-group .bp4-projectbrief .bp4-projecttitle .bp4-h1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 27px;
+  height              : auto;
+  width               : 391px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Bold", Helvetica, Arial, serif;
+  font-size           : 35.28px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.68px;
+  line-height         : 45.36px;
+}
+.bp4-ipadpro129playground .bp4-group .bp4-projectbrief .bp4-projecttitle .bp4-missioncopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 92px;
+  height              : auto;
+  width               : 851px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 16.13px;
+  color               : rgba(39, 39, 39, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.31px;
+  line-height         : 25.2px;
+}
+.bp4-ipadpro129playground .bp4-group .bp4-projectbrief .bp4-projecttitle .bp4-missioncopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -0px;
+  height              : auto;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 16.13px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.31px;
+  line-height         : 19.0px;
+}
+.bp4-ipadpro129playground .bp4-group .bp4-spotify {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 188px;
+  height              : 709px;
+  width               : 399px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 5px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129playground .bp4-group .bp4-spotify .bp4-mask1 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 709px;
+  width               : 399px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 5px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129playground .bp4-group .bp4-spotify .bp4-spotify1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 709px;
+  width               : 399px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-ipadpro129playground .bp4-group .bp4-mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 922px;
+  height              : 708px;
+  width               : 399px;
+  position            : absolute;
+  margin              : 0;
+  left                : 426px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp4-ipadpro129playground .bp4-group .bp4-mask video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp4-ipadpro129playground .bp4-group .bp4-mask video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp4-ipadpro129playground .bp4-group .bp4-rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 187px;
+  height              : 343px;
+  width               : 400px;
+  position            : absolute;
+  margin              : 0;
+  left                : 425px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp4-ipadpro129playground .bp4-group .bp4-rectanglecopy video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp4-ipadpro129playground .bp4-group .bp4-rectanglecopy video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp4-ipadpro129playground .bp4-group .bp4-rectanglecopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 555px;
+  height              : 342px;
+  width               : 400px;
+  position            : absolute;
+  margin              : 0;
+  left                : 425px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp4-ipadpro129playground .bp4-group .bp4-rectanglecopy2 video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp4-ipadpro129playground .bp4-group .bp4-rectanglecopy2 video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp4-ipadpro129playground .bp4-group .bp4-rectanglecopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 922px;
+  height              : 342px;
+  width               : 399px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp4-ipadpro129playground .bp4-group .bp4-rectanglecopy4 video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp4-ipadpro129playground .bp4-group .bp4-rectanglecopy4 video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp4-ipadpro129playground .bp4-group .bp4-rectanglecopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1289px;
+  height              : 342px;
+  width               : 399px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp4-ipadpro129playground .bp4-group .bp4-rectanglecopy3 video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp4-ipadpro129playground .bp4-group .bp4-rectanglecopy3 video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp4-ipadpro129playground .bp4-group .bp4-rectanglecopy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1656px;
+  height              : 226px;
+  width               : 399px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp4-ipadpro129playground .bp4-group .bp4-rectanglecopy5 video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp4-ipadpro129playground .bp4-group .bp4-rectanglecopy5 video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp4-ipadpro129playground .bp4-group .bp4-rectanglecopy6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1656px;
+  height              : 226px;
+  width               : 400px;
+  position            : absolute;
+  margin              : 0;
+  left                : 425px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp4-ipadpro129playground .bp4-group .bp4-rectanglecopy6 video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp4-ipadpro129playground .bp4-group .bp4-rectanglecopy6 video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
+.bp6-iphonexplayground {
+  width               : 100%;
+  min-width           : 375px;
+  height              : 100vh;
+  min-height          : 3177px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp6-iphonexplayground .bp6-sectionhero {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 81px;
+  width               : 376px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexplayground .bp6-sectionhero .bp6-navbar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 81px;
+  width               : 376px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexplayground .bp6-sectionhero .bp6-navbar .bp6-rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 81px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexplayground .bp6-sectionhero .bp6-navbar .bp6-logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : 19px;
+  width               : 109px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexplayground .bp6-sectionhero .bp6-navbar .bp6-logo .bp6-adamoutline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexplayground .bp6-sectionhero .bp6-navbar .bp6-logo .bp6-adamoutline .bp6-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2.63%;
+  height              : 94.74%;
+  width               : 82.57%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.92%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexplayground .bp6-sectionhero .bp6-navbar .bp6-logo .bp6-adamoutline .bp6-path {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 18.42%;
+  height              : 63.16%;
+  width               : 11.01%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexplayground .bp6-sectionhero .bp6-navbar .bp6-logo .bp6-adamfill {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 2.63%;
+  height              : 94.74%;
+  width               : 98.17%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp6-iphonexplayground .bp6-sectionhero .bp6-navbar .bp6-logo .bp6-adamfill .bp6-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 82.24%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexplayground .bp6-sectionhero .bp6-navbar .bp6-logo .bp6-adamfill .bp6-path1 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 13.89%;
+  height              : 72.22%;
+  width               : 11.21%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp6-iphonexplayground .bp6-sectionhero .bp6-navbar .bp6-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 16px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 314px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexplayground .bp6-sectionfooter {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3112px;
+  height              : 68px;
+  width               : 387px;
+  position            : absolute;
+  margin              : 0;
+  left                : -6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexplayground .bp6-sectionfooter .bp6-bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 68px;
+  width               : 387px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexplayground .bp6-sectionfooter .bp6-footer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 27px;
+  height              : 20px;
+  width               : 295px;
+  position            : absolute;
+  margin              : 0;
+  left                : 46px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexplayground .bp6-sectionfooter .bp6-footer .bp6-socialicons {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 97px;
+  position            : absolute;
+  margin              : 0;
+  left                : 197px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexplayground .bp6-sectionfooter .bp6-footer .bp6-socialicons .bp6-dribbble {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 39px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexplayground .bp6-sectionfooter .bp6-footer .bp6-socialicons .bp6-dribbble .bp6-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 95.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 2.50%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexplayground .bp6-sectionfooter .bp6-footer .bp6-socialicons .bp6-dribbble .bp6-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 95.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 2.50%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp6-iphonexplayground .bp6-sectionfooter .bp6-footer .bp6-socialicons .bp6-linkedin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexplayground .bp6-sectionfooter .bp6-footer .bp6-socialicons .bp6-linkedin .bp6-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 95.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 2.50%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexplayground .bp6-sectionfooter .bp6-footer .bp6-socialicons .bp6-linkedin .bp6-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 95.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 2.50%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp6-iphonexplayground .bp6-sectionfooter .bp6-footer .bp6-socialicons .bp6-instagram {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 77px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexplayground .bp6-sectionfooter .bp6-footer .bp6-socialicons .bp6-instagram .bp6-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 95.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 2.50%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexplayground .bp6-sectionfooter .bp6-footer .bp6-socialicons .bp6-instagram .bp6-shapehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 95.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 2.50%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp6-iphonexplayground .bp6-sectionfooter .bp6-footer .bp6-h3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : auto;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 9.03px;
+  color               : rgba(146, 146, 146, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.17px;
+  line-height         : 11.0px;
+}
+.bp6-iphonexplayground .bp6-seemore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3056px;
+  height              : 12px;
+  width               : 128px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexplayground .bp6-seemore .bp6-seemore1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexplayground .bp6-seemore .bp6-seemore1 .bp6-back {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 6px);
+  height              : 12px;
+  width               : 90.62%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 12.1px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.23px;
+  line-height         : 15.0px;
+}
+.bp6-iphonexplayground .bp6-seemore .bp6-seemore1 .bp6-a109617 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 12.50%;
+  height              : 75.00%;
+  width               : 10.16%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexplayground .bp6-seemore .bp6-seemore1 .bp6-a109617 .bp6-path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexplayground .bp6-seemore .bp6-seemorehover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp6-iphonexplayground .bp6-seemore .bp6-seemorehover .bp6-back1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 6px);
+  height              : 12px;
+  width               : 90.62%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 12.1px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.23px;
+  line-height         : 15.0px;
+}
+.bp6-iphonexplayground .bp6-seemore .bp6-seemorehover .bp6-a1096171 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 12.50%;
+  height              : 75.00%;
+  width               : 10.16%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexplayground .bp6-seemore .bp6-seemorehover .bp6-a1096171 .bp6-path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexplayground .bp6-spotify {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 315px;
+  height              : 555px;
+  width               : 313px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  border-radius       : 4px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexplayground .bp6-spotify .bp6-mask1 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 555px;
+  width               : 313px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexplayground .bp6-spotify .bp6-spotify1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 555px;
+  width               : 313px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexplayground .bp6-rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 890px;
+  height              : 269px;
+  width               : 315px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp6-iphonexplayground .bp6-rectanglecopy video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp6-iphonexplayground .bp6-rectanglecopy video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp6-iphonexplayground .bp6-rectanglecopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1179px;
+  height              : 269px;
+  width               : 315px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp6-iphonexplayground .bp6-rectanglecopy2 video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp6-iphonexplayground .bp6-rectanglecopy2 video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp6-iphonexplayground .bp6-mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1468px;
+  height              : 560px;
+  width               : 315px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp6-iphonexplayground .bp6-mask video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp6-iphonexplayground .bp6-mask video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp6-iphonexplayground .bp6-rectanglecopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2048px;
+  height              : 269px;
+  width               : 315px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp6-iphonexplayground .bp6-rectanglecopy4 video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp6-iphonexplayground .bp6-rectanglecopy4 video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp6-iphonexplayground .bp6-rectanglecopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2337px;
+  height              : 270px;
+  width               : 316px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp6-iphonexplayground .bp6-rectanglecopy3 video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp6-iphonexplayground .bp6-rectanglecopy3 video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp6-iphonexplayground .bp6-rectanglecopy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2627px;
+  height              : 178px;
+  width               : 317px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp6-iphonexplayground .bp6-rectanglecopy5 video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp6-iphonexplayground .bp6-rectanglecopy5 video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp6-iphonexplayground .bp6-rectanglecopy6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2825px;
+  height              : 178px;
+  width               : 316px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp6-iphonexplayground .bp6-rectanglecopy6 video {
+  object-fit          : cover;
+  width               : 100%;
+  height              : 100%;
+}
+/* IE doesn't support cover  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bp6-iphonexplayground .bp6-rectanglecopy6 video {
+    min-width           : 100%;
+    min-height          : 100%;
+    position            : absolute;
+    margin              : auto;
+    top                 : -9999px;
+    bottom              : -9999px;
+    left                : -9999px;
+    right               : -9999px;
+  }
+}
+.bp6-iphonexplayground .bp6-projectbrief {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 138px;
+  height              : 134px;
+  width               : 313px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexplayground .bp6-projectbrief .bp6-projecttitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 134px;
+  width               : 313px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp6-iphonexplayground .bp6-projectbrief .bp6-projecttitle .bp6-h1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 22px;
+  height              : auto;
+  width               : 313px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Bold", Helvetica, Arial, serif;
+  font-size           : 28.22px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.54px;
+  line-height         : 36.29px;
+}
+.bp6-iphonexplayground .bp6-projectbrief .bp6-projecttitle .bp6-missioncopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 74px;
+  height              : auto;
+  width               : 308px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 12.9px;
+  color               : rgba(39, 39, 39, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.25px;
+  line-height         : 20.16px;
+}
+.bp6-iphonexplayground .bp6-projectbrief .bp6-projecttitle .bp6-missioncopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 104px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 12.9px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.25px;
+  line-height         : 16.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
+@media screen and (max-width: 767px) {
+  .bp6-iphonexplayground {
+    display             : block;
+  }
+  .bp5-ipadplayground {
+    display             : none;
+  }
+  .bp4-ipadpro129playground {
+    display             : none;
+  }
+  .bp3-web1280playground {
+    display             : none;
+  }
+  .bp2-web1366playground {
+    display             : none;
+  }
+  .bp1-playground {
+    display             : none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .bp6-iphonexplayground {
+    display             : none;
+  }
+  .bp5-ipadplayground {
+    display             : block;
+  }
+  .bp4-ipadpro129playground {
+    display             : none;
+  }
+  .bp3-web1280playground {
+    display             : none;
+  }
+  .bp2-web1366playground {
+    display             : none;
+  }
+  .bp1-playground {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .bp6-iphonexplayground {
+    display             : none;
+  }
+  .bp5-ipadplayground {
+    display             : none;
+  }
+  .bp4-ipadpro129playground {
+    display             : block;
+  }
+  .bp3-web1280playground {
+    display             : none;
+  }
+  .bp2-web1366playground {
+    display             : none;
+  }
+  .bp1-playground {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1365px) {
+  .bp6-iphonexplayground {
+    display             : none;
+  }
+  .bp5-ipadplayground {
+    display             : none;
+  }
+  .bp4-ipadpro129playground {
+    display             : none;
+  }
+  .bp3-web1280playground {
+    display             : block;
+  }
+  .bp2-web1366playground {
+    display             : none;
+  }
+  .bp1-playground {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1366px) and (max-width: 1919px) {
+  .bp6-iphonexplayground {
+    display             : none;
+  }
+  .bp5-ipadplayground {
+    display             : none;
+  }
+  .bp4-ipadpro129playground {
+    display             : none;
+  }
+  .bp3-web1280playground {
+    display             : none;
+  }
+  .bp2-web1366playground {
+    display             : block;
+  }
+  .bp1-playground {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .bp6-iphonexplayground {
+    display             : none;
+  }
+  .bp5-ipadplayground {
+    display             : none;
+  }
+  .bp4-ipadpro129playground {
+    display             : none;
+  }
+  .bp3-web1280playground {
+    display             : none;
+  }
+  .bp2-web1366playground {
+    display             : none;
+  }
+  .bp1-playground {
+    display             : block;
+  }
+}

@@ -1,0 +1,1686 @@
+
+@font-face {
+                          font-family: "Gilroy-Medium";
+                          src: url('../fonts/Gilroy-Medium.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "Gilroy-Bold";
+                          src: url('../fonts/Gilroy-Bold.otf') format("opentype");
+                        }
+                        
+.ipadhomemenuhover {
+  width               : 100%;
+  min-width           : 768px;
+  height              : 100vh;
+  min-height          : 1024px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-animate-enter10 {
+  opacity             : 0;
+  transform           : translate(0, 25px);
+  display             : block;
+  -webkit-animation   : anima-animate-enter10-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter10-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter10-frames 0.20000000298s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter10-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.300000011921s;
+  -moz-animation-delay: 0.300000011921s;
+  -o-animation-delay  : 0.300000011921s;
+  animation-delay     : 0.300000011921s;
+}
+@-webkit-keyframes anima-animate-enter10-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes anima-animate-enter10-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes anima-animate-enter10-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes anima-animate-enter10-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.anima-animate-enter11 {
+  opacity             : 0;
+  transform           : translate(0, 25px);
+  display             : block;
+  -webkit-animation   : anima-animate-enter11-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter11-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter11-frames 0.20000000298s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter11-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.40000000596s;
+  -moz-animation-delay: 0.40000000596s;
+  -o-animation-delay  : 0.40000000596s;
+  animation-delay     : 0.40000000596s;
+}
+@-webkit-keyframes anima-animate-enter11-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes anima-animate-enter11-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes anima-animate-enter11-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes anima-animate-enter11-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.anima-animate-enter12 {
+  opacity             : 0;
+  transform           : translate(0, 25px);
+  display             : block;
+  -webkit-animation   : anima-animate-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes anima-animate-enter12-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes anima-animate-enter12-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes anima-animate-enter12-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes anima-animate-enter12-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.anima-animate-enter13 {
+  opacity             : 0;
+  transform           : translate(0, 25px);
+  display             : block;
+  -webkit-animation   : anima-animate-enter13-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter13-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter13-frames 0.20000000298s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter13-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.40000000596s;
+  -moz-animation-delay: 0.40000000596s;
+  -o-animation-delay  : 0.40000000596s;
+  animation-delay     : 0.40000000596s;
+}
+@-webkit-keyframes anima-animate-enter13-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes anima-animate-enter13-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes anima-animate-enter13-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes anima-animate-enter13-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.ipadhomemenuhover .sectionhero {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 576px;
+  width               : 768px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .darkbg {
+  background-color    : rgba(16, 16, 16, 1.0);
+  top                 : 0px;
+  height              : 575px;
+  width               : 768px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 215px;
+  height              : 278px;
+  width               : 590px;
+  position            : absolute;
+  margin              : 0;
+  left                : 69px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .content .mission {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : 590px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 26.21px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.5px;
+  line-height         : 40.32px;
+}
+.ipadhomemenuhover .sectionhero .content .present {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 147px;
+  height              : auto;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 16.13px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.31px;
+  line-height         : 19.0px;
+}
+.ipadhomemenuhover .sectionhero .content .designco {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 175px;
+  height              : 17px;
+  width               : 84px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .content .designco .designco1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 8px);
+  height              : 16px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 16.13px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.31px;
+  line-height         : 19.0px;
+}
+.ipadhomemenuhover .sectionhero .content .designco .designcohover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 8px);
+  height              : 16px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 16.13px;
+  color               : rgba(146, 146, 146, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.31px;
+  line-height         : 19.0px;
+}
+.ipadhomemenuhover .sectionhero .content .education {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 233px;
+  height              : auto;
+  width               : 83px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 16.13px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.31px;
+  line-height         : 19.0px;
+}
+.ipadhomemenuhover .sectionhero .content .ucsd {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 261px;
+  height              : 17px;
+  width               : 115px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .content .ucsd .ucsd1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 8px);
+  height              : 16px;
+  width               : 99.13%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.43%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 16.13px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.31px;
+  line-height         : 19.0px;
+}
+.ipadhomemenuhover .sectionhero .content .ucsd .ucsdhover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 8px);
+  height              : 16px;
+  width               : 99.13%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.43%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 16.13px;
+  color               : rgba(146, 146, 146, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.31px;
+  line-height         : 19.0px;
+}
+.ipadhomemenuhover .sectionhero .content .previous {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 147px;
+  height              : auto;
+  width               : 68px;
+  position            : absolute;
+  margin              : 0;
+  left                : 297px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 16.13px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.31px;
+  line-height         : 19.0px;
+}
+.ipadhomemenuhover .sectionhero .content .longstorystudios {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 175px;
+  height              : 17px;
+  width               : 153px;
+  position            : absolute;
+  margin              : 0;
+  left                : 297px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .content .longstorystudios .ls {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 8px);
+  height              : 16px;
+  width               : 99.35%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.33%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 16.13px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.31px;
+  line-height         : 19.0px;
+}
+.ipadhomemenuhover .sectionhero .content .longstorystudios .lshover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 8px);
+  height              : 16px;
+  width               : 99.35%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.33%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 16.13px;
+  color               : rgba(146, 146, 146, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.31px;
+  line-height         : 19.0px;
+}
+.ipadhomemenuhover .sectionhero .lightsaber {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 151px;
+  height              : 293px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 734px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberoff {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 72px;
+  height              : 222px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberoff .lightsaberoff1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 139px;
+  height              : 83px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberoff .lightsaberoff1 .rectangle {
+  background-color    : rgba(84, 82, 82, 1.0);
+  top                 : 33px;
+  height              : 17px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberoff .lightsaberoff1 .rectangle1 {
+  background-color    : rgba(196, 196, 196, 1.0);
+  top                 : 34px;
+  height              : 2px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberoff .lightsaberoff1 .rectangle2 {
+  background-color    : rgba(196, 196, 196, 1.0);
+  top                 : 46px;
+  height              : 2px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberoff .lightsaberoff1 .rectangle3 {
+  background-color    : rgba(196, 196, 196, 1.0);
+  top                 : 38px;
+  height              : 3px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberoff .lightsaberoff1 .rectangle4 {
+  background-color    : rgba(196, 196, 196, 1.0);
+  top                 : 41px;
+  height              : 3px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberoff .lightsaberoff1 .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 32px;
+  height              : 19px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberoff .lightsaberoff1 .rectangle5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 49px;
+  height              : 30px;
+  box-sizing          : border-box;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(0, 0, 0, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberoff .lightsaberoff1 .rectangle6 {
+  background-color    : rgba(196, 196, 196, 1.0);
+  top                 : 17px;
+  height              : 16px;
+  box-sizing          : border-box;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(0, 0, 0, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberoff .lightsaberoff1 .rectangle7 {
+  background-color    : rgba(141, 141, 141, 1.0);
+  top                 : 49px;
+  height              : 30px;
+  box-sizing          : border-box;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(0, 0, 0, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberoff .lightsaberoff1 .rectangle8 {
+  background-color    : rgba(84, 82, 82, 1.0);
+  top                 : 0px;
+  height              : 11px;
+  box-sizing          : border-box;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(0, 0, 0, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberoff .lightsaberoff1 .rectangle9 {
+  background-color    : rgba(84, 82, 82, 1.0);
+  top                 : 8px;
+  height              : 10px;
+  box-sizing          : border-box;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(0, 0, 0, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberoff .lightsaberoff1 .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 6px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberoff .lightsaberoff1 .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 6px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberoff .lightsaberoff1 .rectangle10 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 51px;
+  height              : 26px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberoff .lightsaberoff1 .rectangle11 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 51px;
+  height              : 26px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberoff .lightsaberoff1 .rectangle12 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 51px;
+  height              : 26px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberoff .lightsaberoff1 .rectangle13 {
+  background-color    : rgba(84, 82, 82, 1.0);
+  top                 : 77px;
+  height              : 6px;
+  box-sizing          : border-box;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(0, 0, 0, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberoff .playground {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 121px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberoff .playground .rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 121px;
+  box-sizing          : border-box;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberoff .playground .playground1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 52px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -28px;
+  transform           : rotate(-90deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Bold", Helvetica, Arial, serif;
+  font-size           : 16.13px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.31px;
+  line-height         : 20.0px;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 294px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberon .lightsaberon1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 294px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberon .lightsaberon1 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 213px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberon .lightsaberon1 .group .path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 212px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberon .lightsaberon1 .group .path11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 214px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberon .lightsaberon1 .rectangle {
+  background-color    : rgba(84, 82, 82, 1.0);
+  top                 : 244px;
+  height              : 17px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberon .lightsaberon1 .rectangle1 {
+  background-color    : rgba(196, 196, 196, 1.0);
+  top                 : 245px;
+  height              : 2px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberon .lightsaberon1 .rectangle2 {
+  background-color    : rgba(196, 196, 196, 1.0);
+  top                 : 257px;
+  height              : 2px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberon .lightsaberon1 .rectangle3 {
+  background-color    : rgba(196, 196, 196, 1.0);
+  top                 : 249px;
+  height              : 3px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberon .lightsaberon1 .rectangle4 {
+  background-color    : rgba(196, 196, 196, 1.0);
+  top                 : 252px;
+  height              : 3px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberon .lightsaberon1 .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 243px;
+  height              : 19px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberon .lightsaberon1 .rectangle5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 260px;
+  height              : 30px;
+  box-sizing          : border-box;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(0, 0, 0, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberon .lightsaberon1 .rectangle6 {
+  background-color    : rgba(196, 196, 196, 1.0);
+  top                 : 228px;
+  height              : 16px;
+  box-sizing          : border-box;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(0, 0, 0, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberon .lightsaberon1 .rectangle7 {
+  background-color    : rgba(141, 141, 141, 1.0);
+  top                 : 260px;
+  height              : 30px;
+  box-sizing          : border-box;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(0, 0, 0, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberon .lightsaberon1 .rectangle8 {
+  background-color    : rgba(84, 82, 82, 1.0);
+  top                 : 211px;
+  height              : 11px;
+  box-sizing          : border-box;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(0, 0, 0, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberon .lightsaberon1 .rectangle9 {
+  background-color    : rgba(84, 82, 82, 1.0);
+  top                 : 219px;
+  height              : 10px;
+  box-sizing          : border-box;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(0, 0, 0, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberon .lightsaberon1 .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 221px;
+  height              : 6px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberon .lightsaberon1 .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 221px;
+  height              : 6px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberon .lightsaberon1 .rectangle10 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 262px;
+  height              : 26px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberon .lightsaberon1 .rectangle11 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 262px;
+  height              : 26px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberon .lightsaberon1 .rectangle12 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 262px;
+  height              : 26px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberon .lightsaberon1 .rectangle13 {
+  background-color    : rgba(84, 82, 82, 1.0);
+  top                 : 288px;
+  height              : 6px;
+  box-sizing          : border-box;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(0, 0, 0, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberon .playground {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 72px;
+  height              : 121px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberon .playground .rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 121px;
+  box-sizing          : border-box;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .lightsaber .lightsaberon .playground .playground1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 48px;
+  height              : auto;
+  width               : 97px;
+  position            : absolute;
+  margin              : 0;
+  left                : -32px;
+  transform           : rotate(-90deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Bold", Helvetica, Arial, serif;
+  font-size           : 16.13px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.31px;
+  line-height         : 20.0px;
+}
+.ipadhomemenuhover .sectionhero .navbar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 102px;
+  width               : 768px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .navbar .rectangle {
+  background-color    : rgba(16, 16, 16, 1.0);
+  top                 : 0px;
+  height              : 101px;
+  width               : 768px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .navbar .logo1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 41px;
+  height              : 24px;
+  width               : 137px;
+  position            : absolute;
+  margin              : 0;
+  left                : 69px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .navbar .logo1 .adamoutline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 99.27%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.36%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .navbar .logo1 .adamoutline .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2.08%;
+  height              : 95.83%;
+  width               : 82.35%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .navbar .logo1 .adamoutline .path {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 18.75%;
+  height              : 62.50%;
+  width               : 11.03%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .navbar .logo1 .adamfill {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2.08%;
+  height              : 95.83%;
+  width               : 98.54%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.73%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.ipadhomemenuhover .sectionhero .navbar .logo1 .adamfill .shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2.17%;
+  height              : 95.65%;
+  width               : 81.48%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .sectionhero .navbar .logo1 .adamfill .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 15.22%;
+  height              : 69.57%;
+  width               : 11.11%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1024px;
+  width               : 768px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .group3 .rectangle {
+  background-color    : rgba(16, 16, 16, 1.0);
+  top                 : 0px;
+  height              : 1024px;
+  width               : 768px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .group3 .workcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 149px;
+  height              : 332px;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .group3 .workcopy {
+  opacity             : 0;
+  transform           : translate(0, 25px);
+}
+.ipadhomemenuhover .group3 .workcopy .work {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 29.22%;
+  height              : 12.35%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .group3 .workcopy .work {
+  opacity             : 0;
+  transform           : translate(0, 25px);
+}
+.ipadhomemenuhover .group3 .workcopy .work .work1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 20px);
+  height              : 40px;
+  width               : 99.25%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.37%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 28.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.78px;
+  line-height         : 34.0px;
+}
+.ipadhomemenuhover .group3 .workcopy .workcopy1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 12.35%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .group3 .workcopy .workcopy1 {
+  opacity             : 0;
+  transform           : translate(0, 25px);
+}
+.ipadhomemenuhover .group3 .workcopy .workcopy1 .work1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 20px);
+  height              : 40px;
+  width               : 99.25%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.37%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 28.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.78px;
+  line-height         : 34.0px;
+}
+.ipadhomemenuhover .group3 .workcopy .workcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 29.22%;
+  height              : 12.35%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .group3 .workcopy .workcopy2 {
+  opacity             : 0;
+  transform           : translate(0, 25px);
+}
+.ipadhomemenuhover .group3 .workcopy .workcopy2 .work1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 20px);
+  height              : 40px;
+  width               : 99.25%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.37%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 28.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.78px;
+  line-height         : 34.0px;
+}
+.ipadhomemenuhover .group3 .workcopy .workcopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 12.35%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .group3 .workcopy .workcopy3 .work1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 20px);
+  height              : 40px;
+  width               : 99.25%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.37%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 28.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.78px;
+  line-height         : 34.0px;
+}
+.ipadhomemenuhover .group3 .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 44px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 693px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .group3 .group2 .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 4px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  transform           : rotate(45deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .group3 .group2 .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 4px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  transform           : rotate(-45deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .h3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 940px;
+  height              : auto;
+  width               : 116px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Gilroy-Medium", Helvetica, Arial, serif;
+  font-size           : 11.29px;
+  color               : rgba(146, 146, 146, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.22px;
+  line-height         : 14.0px;
+}
+.ipadhomemenuhover .logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 41px;
+  height              : 24px;
+  width               : 137px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .logo .adamoutline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 99.27%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.36%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .logo .adamoutline .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2.08%;
+  height              : 95.83%;
+  width               : 82.35%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .logo .adamoutline .path {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 18.75%;
+  height              : 62.50%;
+  width               : 11.03%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .logo .adamfill {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2.08%;
+  height              : 95.83%;
+  width               : 98.54%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.73%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.ipadhomemenuhover .logo .adamfill .shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2.17%;
+  height              : 95.65%;
+  width               : 81.48%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.ipadhomemenuhover .logo .adamfill .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 15.22%;
+  height              : 69.57%;
+  width               : 11.11%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-valign-text-middle {
+  display             : flex;
+  flex-direction      : column;
+  justify-content     : center;
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
